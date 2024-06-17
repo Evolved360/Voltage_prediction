@@ -1,0 +1,1728 @@
+battery_type,battery_id,thermo_type,battery_formula,working_ion,num_steps,max_voltage_step,last_updated,framework,framework_formula,elements,nelements,chemsys,formula_anonymous,warnings,formula_charge,formula_discharge,max_delta_volume,average_voltage,capacity_grav,capacity_vol,energy_grav,energy_vol,fracA_charge,fracA_discharge,stability_charge,stability_discharge,id_charge,id_discharge,host_structure,adj_pairs,material_ids,entries_composition_summary,electrode_object,fields_not_requested,density_charge,density_discharge,volume_charge,volume_discharge,band_gap_charge,band_gap_discharge,energy_above_hull_charge,energy_above_hull_discharge,ordering_charge,ordering_discharge,density_atomic_charge,density_atomic_discharge
+,mp-1238779_Rb,,Rb0-0.5CrS2,Rb,1,0.0,2022-06-28 03:50:00,Cr1 S2,CrS2,"[Element Cr, Element S]",2,Cr-S,AB2,[],CrS2,Rb(CrS2)2,0.536655706973221,0.6637129874999979,84.35566267582743,273.2496615212838,55.987948887115486,181.3593491816545,0.0,0.14285714285714285,0.029461006666667622,0.30645487714285746,mp-1442954,mp-1238779,"Full Formula (Cr4 S8)
+Reduced Formula: CrS2
+abc   :   6.563354   6.563354   6.563353
+angles:  62.711296  62.711296  62.711299
+pbc   :       True       True       True
+Sites (12)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Cr    0.5       0         0.5          2.375
+  1  Cr    0         0.5       0.5          2.375
+  2  Cr    0.5       0.5       0.5          2.111
+  3  Cr    0.5       0.5       0            2.375
+  4  S     0.743236  0.254029  0.254029    -0.167
+  5  S     0.254029  0.743236  0.254029    -0.167
+  6  S     0.254029  0.254029  0.743236    -0.167
+  7  S     0.250777  0.250777  0.250777    -0.192
+  8  S     0.745971  0.256764  0.745971    -0.167
+  9  S     0.256764  0.745971  0.745971    -0.167
+ 10  S     0.749223  0.749223  0.749223    -0.192
+ 11  S     0.745971  0.745971  0.256764    -0.167","[InsertionVoltagePairDoc(formula_charge='CrS2', formula_discharge='Rb(CrS2)2', max_delta_volume=0.536655706973221, average_voltage=0.6637129874999979, capacity_grav=84.35566267582743, capacity_vol=273.2496615212838, energy_grav=55.987948887115486, energy_vol=181.3593491816545, fracA_charge=0.0, fracA_discharge=0.14285714285714285, stability_charge=0.029461006666667622, stability_discharge=0.30645487714285746, id_charge=MPID(mp-1442954), id_discharge=MPID(mp-1238779))]","[MPID(mp-1442954), MPID(mp-1238779), MPID(mp-1407236)]","all_formulas=['CrS2', 'Rb(CrS2)2'] all_chemsys=['Cr-S', 'Cr-Rb-S'] all_formula_anonymous=['AB2C4', 'AB2'] all_elements=[Element Rb, Element Cr, Element S] all_composition_reduced={'Cr': [1.0, 2.0], 'S': [2.0, 4.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at CrS2 and Rb(CrS2)2
+Avg. volt. = 0.6637129874999979 V
+Grav. cap. = 84.35566267582743 mAh/g
+Vol. cap. = 273.2496615212838","['battery_type', 'thermo_type']",3.6386245625218163,3.239256888739441,211.98331665001731,325.7453733133605,0.0,0.0,0.029461006666667622,0.30645487714285746,FM,FiM,17.665276387501443,23.267526665240037
+,mp-560562_Rb,,Rb0-3CrF6,Rb,2,1.1372419050000033,2022-06-28 03:50:00,Cr1 F6,CrF6,"[Element Cr, Element F]",2,Cr-F,AB6,['More than one working ion per transition metal'],CrF6,Rb3CrF6,0.6915600796251558,5.4294637375,190.35597153543924,684.1493808722865,1033.5308446682495,3714.564254479156,0.0,0.3,0.0,0.0,mp-1391848,mp-1113631,"Full Formula (Cr1 F6)
+Reduced Formula: CrF6
+abc   :   5.567079   5.567079   5.567079
+angles:  57.634611  57.634611  57.634611
+pbc   :       True       True       True
+Sites (7)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Cr    0         0         0               -0
+  1  F     0.877128  0.215521  0.687888         0
+  2  F     0.215521  0.687888  0.877128         0
+  3  F     0.312112  0.122872  0.784479         0
+  4  F     0.784479  0.312112  0.122872         0
+  5  F     0.122872  0.784479  0.312112         0
+  6  F     0.687888  0.877128  0.215521         0","[InsertionVoltagePairDoc(formula_charge='CrF6', formula_discharge='Rb2CrF6', max_delta_volume=0.442008334483065, average_voltage=5.808544372500001, capacity_grav=159.09600241742686, capacity_vol=535.0314805213155, energy_grav=924.1161895289913, energy_vol=3107.7540952924314, fracA_charge=0.0, fracA_discharge=0.2222222222222222, stability_charge=0.0, stability_discharge=0.02070929236111585, id_charge=MPID(mp-1391848), id_discharge=MPID(mp-560562)), InsertionVoltagePairDoc(formula_charge='Rb2CrF6', formula_discharge='Rb3CrF6', max_delta_volume=0.17305846240587153, average_voltage=4.671302467499998, capacity_grav=63.45199051181307, capacity_vol=228.0497936240955, energy_grav=296.40343984561883, energy_vol=1065.2895636691026, fracA_charge=0.2222222222222222, fracA_discharge=0.3, stability_charge=0.02070929236111585, stability_discharge=0.0, id_charge=MPID(mp-560562), id_discharge=MPID(mp-1113631))]","[MPID(mp-1391848), MPID(mp-560562), MPID(mp-1113631)]","all_formulas=['Rb2CrF6', 'Rb3CrF6', 'CrF6'] all_chemsys=['Cr-F-Rb', 'Cr-F'] all_formula_anonymous=['AB3C6', 'AB6', 'AB2C6'] all_elements=[Element Rb, Element Cr, Element F] all_composition_reduced={'Cr': [1.0], 'F': [6.0], 'Rb': [2.0, 3.0]}","InsertionElectrode with endpoints at CrF6 and Rb3CrF6
+Avg. volt. = 5.4294637375 V
+Grav. cap. = 190.35597153543924 mAh/g
+Vol. cap. = 684.1493808722865","['battery_type', 'thermo_type']",3.1552656755250097,3.8275471379547423,87.35464078304243,183.2492029201786,2.0863000000000005,4.3963,0.0,0.0,NM,FM,12.479234397577489,18.324920292017858
+,mp-30227_Rb,,Rb0-2WCl6,Rb,1,0.0,2022-06-28 03:50:00,W1 Cl6,WCl6,"[Element W, Element Cl]",2,Cl-W,AB6,['More than one working ion per transition metal'],WCl6,Rb2WCl6,0.17993030514836472,3.2042313124999984,94.45562432902817,329.8154004900386,302.65766911680873,1056.804833594909,0.0,0.2222222222222222,0.0,0.0,mp-571518,mp-30227,"Full Formula (W1 Cl6)
+Reduced Formula: WCl6
+abc   :   7.133110   7.133110   7.133110
+angles:  55.318845  55.318845  55.318846
+pbc   :       True       True       True
+Sites (7)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  W     0         0         0                0
+  1  Cl    0.643972  0.213366  0.920765        -0
+  2  Cl    0.920765  0.643972  0.213366        -0
+  3  Cl    0.213366  0.920765  0.643972        -0
+  4  Cl    0.356028  0.786634  0.079235        -0
+  5  Cl    0.079235  0.356028  0.786634        -0
+  6  Cl    0.786634  0.079235  0.356028        -0","[InsertionVoltagePairDoc(formula_charge='WCl6', formula_discharge='Rb2WCl6', max_delta_volume=0.17993030514836472, average_voltage=3.2042313124999984, capacity_grav=94.45562432902817, capacity_vol=329.8154004900386, energy_grav=302.65766911680873, energy_vol=1056.804833594909, fracA_charge=0.0, fracA_discharge=0.2222222222222222, stability_charge=0.0, stability_discharge=0.0, id_charge=MPID(mp-571518), id_discharge=MPID(mp-30227))]","[MPID(mp-571518), MPID(mp-30227)]","all_formulas=['Rb2WCl6', 'WCl6'] all_chemsys=['Cl-Rb-W', 'Cl-W'] all_formula_anonymous=['AB6', 'AB2C6'] all_elements=[Element Rb, Element W, Element Cl] all_composition_reduced={'W': [1.0], 'Cl': [6.0], 'Rb': [2.0]}","InsertionElectrode with endpoints at WCl6 and Rb2WCl6
+Avg. volt. = 3.2042313124999984 V
+Grav. cap. = 94.45562432902817 mAh/g
+Vol. cap. = 329.8154004900386","['battery_type', 'thermo_type']",3.448793954493857,3.7051212710843573,190.936327267311,254.33588374009756,1.9169,0.0,0.0,0.0,NM,FM,27.276618181044427,28.259542637788616
+,mp-10810_Rb,,Rb0-2TiAgF6,Rb,1,0.0,2022-06-28 03:50:00,Ti1 Ag1 F6,TiAgF6,"[Element Ti, Element Ag, Element F]",3,Ag-F-Ti,ABC6,[],TiAgF6,Rb2TiAgF6,0.4448601496223952,3.3005823525,121.64211406676873,504.741219890696,401.4898150095689,1665.9399629505533,0.0,0.2,0.005325125625000204,0.19050464099999687,mp-10810,mp-1110599,"Full Formula (Ti1 Ag1 F6)
+Reduced Formula: TiAgF6
+abc   :   5.262920   5.457883   5.868659
+angles:  94.081809 117.198846 118.695927
+pbc   :       True       True       True
+Sites (8)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Ti    0         0.5       0.5          0.02
+  1  Ag    0         0         0            0.588
+  2  F     0.867863  0.70517   0.290931     0.011
+  3  F     0.132137  0.29483   0.709069     0.011
+  4  F     0.470444  0.859181  0.727376     0.09
+  5  F     0.529556  0.140819  0.272624     0.09
+  6  F     0.891932  0.617288  0.741204     0.084
+  7  F     0.108068  0.382712  0.258796     0.084","[InsertionVoltagePairDoc(formula_charge='TiAgF6', formula_discharge='Rb2TiAgF6', max_delta_volume=0.4448601496223952, average_voltage=3.3005823525, capacity_grav=121.64211406676873, capacity_vol=504.741219890696, energy_grav=401.4898150095689, energy_vol=1665.9399629505533, fracA_charge=0.0, fracA_discharge=0.2, stability_charge=0.005325125625000204, stability_discharge=0.19050464099999687, id_charge=MPID(mp-10810), id_discharge=MPID(mp-1110599))]","[MPID(mp-10810), MPID(mp-1110599)]","all_formulas=['Rb2TiAgF6', 'TiAgF6'] all_chemsys=['Ag-F-Rb-Ti', 'Ag-F-Ti'] all_formula_anonymous=['ABC6', 'ABC2D6'] all_elements=[Element Rb, Element Ti, Element Ag, Element F] all_composition_reduced={'Ti': [1.0], 'Ag': [1.0], 'F': [6.0], 'Rb': [2.0]}","InsertionElectrode with endpoints at TiAgF6 and Rb2TiAgF6
+Avg. volt. = 3.3005823525 V
+Grav. cap. = 121.64211406676873 mAh/g
+Vol. cap. = 504.741219890696","['battery_type', 'thermo_type']",4.087143253120143,4.149395327338839,109.5850818545579,176.34742218849388,0.1936,0.0,0.018491184687499995,0.19154280849999505,FM,FM,13.698135231819737,17.63474221884939
+,mp-562140_Rb,,Rb0-3CoNCl4O3,Rb,1,0.0,2022-06-28 03:50:00,Co1 N1 Cl4 O3,CoNCl4O3,"[Element Co, Element N, Element Cl, Element O]",4,Cl-Co-N-O,ABC3D4,['More than one working ion per transition metal'],CoNCl4O3,Rb3CoNCl4O3,0.287168435335285,5.605087015833336,154.87605151553814,422.3230331125408,868.0937454132776,2367.1573493864544,0.0,0.25,0.25705353861111035,0.0,mp-772570,mp-562140,"Full Formula (Co4 N4 Cl16 O12)
+Reduced Formula: CoNCl4O3
+abc   :   8.948590   9.190837  11.945362
+angles:  90.000000  90.000000  90.000000
+pbc   :       True       True       True
+Sites (36)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Co    0.174824  0.75      0.595791     2.933
+  1  Co    0.325176  0.25      0.095791     2.933
+  2  Co    0.674824  0.75      0.904209     2.933
+  3  Co    0.825176  0.25      0.404209     2.933
+  4  N     0.158819  0.25      0.774059    -0.001
+  5  N     0.341181  0.75      0.274059    -0.001
+  6  N     0.658819  0.25      0.725941    -0.001
+  7  N     0.841181  0.75      0.225941    -0.001
+  8  Cl    0.026802  0.25      0.499159     0.375
+  9  Cl    0.124677  0.75      0.769507     0.39
+ 10  Cl    0.196815  0.437294  0.055448     0.396
+ 11  Cl    0.196815  0.062706  0.055448     0.396
+ 12  Cl    0.303185  0.562706  0.555448     0.396
+ 13  Cl    0.303185  0.937294  0.555448     0.396
+ 14  Cl    0.375323  0.25      0.269507     0.39
+ 15  Cl    0.473198  0.75      0.999159     0.375
+ 16  Cl    0.526802  0.25      0.000841     0.375
+ 17  Cl    0.624677  0.75      0.730493     0.39
+ 18  Cl    0.696815  0.062706  0.444552     0.396
+ 19  Cl    0.696815  0.437294  0.444552     0.396
+ 20  Cl    0.803185  0.562706  0.944552     0.396
+ 21  Cl    0.803185  0.937294  0.944552     0.396
+ 22  Cl    0.875323  0.25      0.230493     0.39
+ 23  Cl    0.973198  0.75      0.500841     0.375
+ 24  O     0.093703  0.131699  0.792451     0.019
+ 25  O     0.093703  0.368301  0.792451     0.019
+ 26  O     0.209954  0.75      0.237411     0.029
+ 27  O     0.290046  0.25      0.737411     0.029
+ 28  O     0.406297  0.631699  0.292451     0.019
+ 29  O     0.406297  0.868301  0.292451     0.019
+ 30  O     0.593703  0.131699  0.707549     0.019
+ 31  O     0.593703  0.368301  0.707549     0.019
+ 32  O     0.709954  0.75      0.262589     0.029
+ 33  O     0.790046  0.25      0.762589     0.029
+ 34  O     0.906297  0.631699  0.207549     0.019
+ 35  O     0.906297  0.868301  0.207549     0.019","[InsertionVoltagePairDoc(formula_charge='CoNCl4O3', formula_discharge='Rb3CoNCl4O3', max_delta_volume=0.287168435335285, average_voltage=5.605087015833336, capacity_grav=154.87605151553814, capacity_vol=422.3230331125408, energy_grav=868.0937454132776, energy_vol=2367.1573493864544, fracA_charge=0.0, fracA_discharge=0.25, stability_charge=0.25705353861111035, stability_discharge=0.0, id_charge=MPID(mp-772570), id_discharge=MPID(mp-562140))]","[MPID(mp-772570), MPID(mp-562140)]","all_formulas=['CoNCl4O3', 'Rb3CoNCl4O3'] all_chemsys=['Cl-Co-N-O-Rb', 'Cl-Co-N-O'] all_formula_anonymous=['ABC3D4', 'ABC3D3E4'] all_elements=[Element Rb, Element Co, Element N, Element Cl, Element O] all_composition_reduced={'Co': [1.0], 'N': [1.0], 'Cl': [4.0], 'O': [3.0], 'Rb': [3.0]}","InsertionElectrode with endpoints at CoNCl4O3 and Rb3CoNCl4O3
+Avg. volt. = 5.605087015833336 V
+Grav. cap. = 154.87605151553814 mAh/g
+Vol. cap. = 422.3230331125408","['battery_type', 'thermo_type']",1.7764090653992886,2.7268452987660576,982.4466807757284,1264.5743568944386,0.0,2.7376,0.2572519047222217,0.0,FM,FM,27.290185577103568,26.34529910196747
+,mp-28344_Rb,,Rb0-1Zr6CI14,Rb,1,0.0,2022-06-28 03:50:00,Zr6 C1 I14,Zr6CI14,"[Element Zr, Element C, Element I]",3,C-I-Zr,AB6C14,[],Zr6CI14,RbZr6CI14,0.012121031796047621,1.6538982425000122,11.068199992941475,56.53124963920218,18.305676515964553,93.49693442460593,0.0,0.045454545454545456,0.0,0.0,mp-28344,mp-1209204,"Full Formula (Zr12 C2 I28)
+Reduced Formula: Zr6CI14
+abc   :  11.019131  11.019131  13.142053
+angles:  90.000000  90.000000  92.950752
+pbc   :       True       True       True
+Sites (42)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Zr    0.626652  0.626652  0.092419        -0
+  1  Zr    0.873348  0.873348  0.592419        -0
+  2  Zr    0.126652  0.126652  0.407581        -0
+  3  Zr    0.373348  0.373348  0.907581        -0
+  4  Zr    0.453592  0.665016  0.891426        -0
+  5  Zr    0.046408  0.834984  0.391426        -0
+  6  Zr    0.165016  0.953592  0.608574        -0
+  7  Zr    0.334984  0.546408  0.108574        -0
+  8  Zr    0.546408  0.334984  0.108574        -0
+  9  Zr    0.953592  0.165016  0.608574        -0
+ 10  Zr    0.834984  0.046408  0.391426        -0
+ 11  Zr    0.665016  0.453592  0.891426        -0
+ 12  C     0.5       0.5       0               -0
+ 13  C     0         0         0.5             -0
+ 14  I     0.106366  0.354534  0.511043         0
+ 15  I     0.393634  0.145466  0.011043         0
+ 16  I     0.107469  0.607469  0.25             0
+ 17  I     0.392531  0.892531  0.75             0
+ 18  I     0.892531  0.392531  0.75             0
+ 19  I     0.607469  0.107469  0.25             0
+ 20  I     0.143547  0.143547  0.761537         0
+ 21  I     0.356453  0.356453  0.261537         0
+ 22  I     0.643547  0.643547  0.738463         0
+ 23  I     0.856453  0.856453  0.238463         0
+ 24  I     0.751481  0.248519  0                0
+ 25  I     0.748519  0.251481  0.5              0
+ 26  I     0.248519  0.751481  0                0
+ 27  I     0.251481  0.748519  0.5              0
+ 28  I     0.645466  0.893634  0.488957         0
+ 29  I     0.854534  0.606366  0.988957         0
+ 30  I     0.606366  0.854534  0.988957         0
+ 31  I     0.893634  0.645466  0.488957         0
+ 32  I     0.354534  0.106366  0.511043         0
+ 33  I     0.145466  0.393634  0.011043         0
+ 34  I     0.212884  0.966236  0.254762         0
+ 35  I     0.287116  0.533764  0.754762         0
+ 36  I     0.466236  0.712884  0.245238         0
+ 37  I     0.033764  0.787116  0.745238         0
+ 38  I     0.787116  0.033764  0.745238         0
+ 39  I     0.712884  0.466236  0.245238         0
+ 40  I     0.533764  0.287116  0.754762         0
+ 41  I     0.966236  0.212884  0.254762         0","[InsertionVoltagePairDoc(formula_charge='Zr6CI14', formula_discharge='RbZr6CI14', max_delta_volume=0.012121031796047621, average_voltage=1.6538982425000122, capacity_grav=11.068199992941475, capacity_vol=56.53124963920218, energy_grav=18.305676515964553, energy_vol=93.49693442460593, fracA_charge=0.0, fracA_discharge=0.045454545454545456, stability_charge=0.0, stability_discharge=0.0, id_charge=MPID(mp-28344), id_discharge=MPID(mp-1209204))]","[MPID(mp-28344), MPID(mp-1209204)]","all_formulas=['RbZr6CI14', 'Zr6CI14'] all_chemsys=['C-I-Zr', 'C-I-Rb-Zr'] all_formula_anonymous=['AB6C14', 'ABC6D14'] all_elements=[Element Rb, Element Zr, Element C, Element I] all_composition_reduced={'Zr': [6.0], 'C': [1.0], 'I': [14.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at Zr6CI14 and RbZr6CI14
+Avg. volt. = 1.6538982425000122 V
+Grav. cap. = 11.068199992941475 mAh/g
+Vol. cap. = 56.53124963920218","['battery_type', 'thermo_type']",5.043396115340444,5.107537779920662,1538.2682085564572,1574.5240653282005,0.7934999999999999,0.0,0.0,0.0,NM,NM,36.625433537058505,35.78463784836819
+,mp-28818_Rb,,Rb0.75-1Cr5Se8,Rb,1,0.0,2022-06-28 03:50:00,Cr5 Se8,Cr5Se8,"[Element Cr, Element Se]",2,Cr-Se,A5B8,[],Rb3(Cr5Se8)4,RbCr5Se8,0.011400445533311654,1.7014684574999772,6.857206250541482,35.66463725439179,11.667320141868018,60.682255336526225,0.05454545454545454,0.07142857142857142,0.0,0.0,mp-1220065,mp-28818,"Full Formula (Cr20 Se32)
+Reduced Formula: Cr5Se8
+abc   :  10.965164  11.576181  11.731586
+angles: 111.150822  81.575338 117.300545
+pbc   :       True       True       True
+Sites (52)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Cr    0.793745  0.609328  0.129278     2.946
+  1  Cr    0.042885  0.858881  0.378633     2.931
+  2  Cr    0.292103  0.10732   0.627232     2.942
+  3  Cr    0.543152  0.358451  0.878142     2.952
+  4  Cr    0.957115  0.141119  0.621367     2.931
+  5  Cr    0.206255  0.390672  0.870722     2.946
+  6  Cr    0.456848  0.641549  0.121858     2.952
+  7  Cr    0.707897  0.89268   0.372768     2.942
+  8  Cr    0.374241  0.874535  0.375788     2.943
+  9  Cr    0.625759  0.125465  0.624212     2.943
+ 10  Cr    0.875567  0.375311  0.874256     2.941
+ 11  Cr    0.124433  0.624689  0.125744     2.941
+ 12  Cr    0.412548  0.322383  0.486215     2.974
+ 13  Cr    0.662506  0.571135  0.735649     2.972
+ 14  Cr    0.911192  0.820666  0.985153     2.978
+ 15  Cr    0.161744  0.071013  0.235792     2.975
+ 16  Cr    0.337494  0.428865  0.264351     2.972
+ 17  Cr    0.587452  0.677617  0.513785     2.974
+ 18  Cr    0.838256  0.928987  0.764208     2.975
+ 19  Cr    0.088808  0.179334  0.014847     2.978
+ 20  Se    0.343856  0.500463  0.491714    -0.151
+ 21  Se    0.593803  0.750849  0.741815    -0.145
+ 22  Se    0.844264  0.001522  0.992325    -0.145
+ 23  Se    0.094493  0.250585  0.242016    -0.15
+ 24  Se    0.406197  0.249151  0.258185    -0.145
+ 25  Se    0.656144  0.499537  0.508286    -0.151
+ 26  Se    0.905507  0.749415  0.757984    -0.15
+ 27  Se    0.155736  0.998478  0.007675    -0.145
+ 28  Se    0.068374  0.392837  0.723371    -0.126
+ 29  Se    0.318629  0.644289  0.973598    -0.12
+ 30  Se    0.57009   0.89566   0.224867    -0.121
+ 31  Se    0.820478  0.144947  0.475418    -0.128
+ 32  Se    0.681371  0.355711  0.026402    -0.12
+ 33  Se    0.931626  0.607163  0.276629    -0.126
+ 34  Se    0.179522  0.855053  0.524582    -0.128
+ 35  Se    0.42991   0.10434   0.775133    -0.121
+ 36  Se    0.265531  0.61614   0.271818    -0.122
+ 37  Se    0.515495  0.866373  0.521869    -0.113
+ 38  Se    0.765577  0.116251  0.771756    -0.11
+ 39  Se    0.015882  0.366311  0.021578    -0.113
+ 40  Se    0.484505  0.133627  0.478131    -0.113
+ 41  Se    0.734469  0.38386   0.728182    -0.122
+ 42  Se    0.984118  0.633689  0.978422    -0.113
+ 43  Se    0.234423  0.883749  0.228244    -0.11
+ 44  Se    0.595322  0.618134  0.273817    -0.087
+ 45  Se    0.845478  0.867537  0.523795    -0.087
+ 46  Se    0.095587  0.117572  0.773581    -0.087
+ 47  Se    0.345695  0.368289  0.024099    -0.085
+ 48  Se    0.154522  0.132463  0.476205    -0.087
+ 49  Se    0.404678  0.381866  0.726183    -0.087
+ 50  Se    0.654305  0.631711  0.975901    -0.085
+ 51  Se    0.904413  0.882428  0.226419    -0.087","[InsertionVoltagePairDoc(formula_charge='Rb3(Cr5Se8)4', formula_discharge='RbCr5Se8', max_delta_volume=0.011400445533311654, average_voltage=1.7014684574999772, capacity_grav=6.857206250541482, capacity_vol=35.66463725439179, energy_grav=11.667320141868018, energy_vol=60.682255336526225, fracA_charge=0.05454545454545454, fracA_discharge=0.07142857142857142, stability_charge=0.0, stability_discharge=0.0, id_charge=MPID(mp-1220065), id_discharge=MPID(mp-28818))]","[MPID(mp-1220065), MPID(mp-28818)]","all_formulas=['Rb3(Cr5Se8)4', 'RbCr5Se8'] all_chemsys=['Cr-Rb-Se'] all_formula_anonymous=['AB5C8', 'A3B20C32'] all_elements=[Element Rb, Element Cr, Element Se] all_composition_reduced={'Rb': [1.0, 3.0], 'Cr': [20.0, 5.0], 'Se': [32.0, 8.0]}","InsertionElectrode with endpoints at Rb3(Cr5Se8)4 and RbCr5Se8
+Avg. volt. = 1.7014684574999772 V
+Grav. cap. = 6.857206250541482 mAh/g
+Vol. cap. = 35.66463725439179","['battery_type', 'thermo_type']",5.145310781974185,5.2538915663366,1233.8061798571593,308.8300728600329,0.0,0.015200000000000102,0.0,0.0,FM,FM,22.432839633766534,22.059290918573776
+,mp-560878_Rb,,Rb2-3CoF6,Rb,1,0.0,2022-06-28 03:50:00,Co1 F6,CoF6,"[Element Co, Element F]",2,Co-F,AB6,['More than one working ion per transition metal'],Rb2CoF6,Rb3CoF6,0.16374611899260016,4.388399527500005,62.4267289476421,230.17713859464442,273.9534278172035,1010.1092462500408,0.2222222222222222,0.3,0.0,0.0,mp-560878,mp-1113630,"Full Formula (Co1 F6)
+Reduced Formula: CoF6
+abc   :   6.170696   6.170696   6.170696
+angles:  60.000000  60.000000  60.000000
+pbc   :       True       True       True
+Sites (7)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Co    0         0         0            3.457
+  1  F     0.785699  0.785699  0.214301     0.229
+  2  F     0.785699  0.214301  0.785699     0.229
+  3  F     0.214301  0.785699  0.214301     0.229
+  4  F     0.214301  0.214301  0.785699     0.229
+  5  F     0.214301  0.785699  0.785699     0.229
+  6  F     0.785699  0.214301  0.214301     0.229","[InsertionVoltagePairDoc(formula_charge='Rb2CoF6', formula_discharge='Rb3CoF6', max_delta_volume=0.16374611899260016, average_voltage=4.388399527500005, capacity_grav=62.4267289476421, capacity_vol=230.17713859464442, energy_grav=273.9534278172035, energy_vol=1010.1092462500408, fracA_charge=0.2222222222222222, fracA_discharge=0.3, stability_charge=0.0, stability_discharge=0.0, id_charge=MPID(mp-560878), id_discharge=MPID(mp-1113630))]","[MPID(mp-560878), MPID(mp-1113630)]","all_formulas=['Rb3CoF6', 'Rb2CoF6'] all_chemsys=['Co-F-Rb'] all_formula_anonymous=['AB3C6', 'AB2C6'] all_elements=[Element Rb, Element Co, Element F] all_composition_reduced={'Rb': [2.0, 3.0], 'Co': [1.0], 'F': [6.0]}","InsertionElectrode with endpoints at Rb2CoF6 and Rb3CoF6
+Avg. volt. = 4.388399527500005 V
+Grav. cap. = 62.4267289476421 mAh/g
+Vol. cap. = 230.17713859464442","['battery_type', 'thermo_type']",3.86077140673197,4.092695456128568,147.89574373500793,174.1918711196276,1.179,2.9106,0.0,0.0,FM,NM,16.43286041500088,17.41918711196276
+,mp-102_Rb,,Rb0-3Co,Rb,1,0.0,2022-06-28 03:50:00,Co1,Co,[Element Co],1,Co,A,['More than one working ion per transition metal'],Co,Rb3Co,17.420444810766575,-1.1292822591666667,254.9797413652281,664.1584600898982,-287.9440983706572,-750.0223662549747,0.0,0.75,0.016113994999999548,0.8509901931249999,mp-102,mp-975050,"Full Formula (Co1)
+Reduced Formula: Co
+abc   :   2.489760   2.489760   2.489760
+angles:  60.000000  60.000000  60.000000
+pbc   :       True       True       True
+Sites (1)
+  #  SP      a    b    c    magmom
+---  ----  ---  ---  ---  --------
+  0  Co      0    0    0      1.64","[InsertionVoltagePairDoc(formula_charge='Co', formula_discharge='Rb3Co', max_delta_volume=17.420444810766575, average_voltage=-1.1292822591666667, capacity_grav=254.9797413652281, capacity_vol=664.1584600898982, energy_grav=-287.9440983706572, energy_vol=-750.0223662549747, fracA_charge=0.0, fracA_discharge=0.75, stability_charge=0.016113994999999548, stability_discharge=0.8509901931249999, id_charge=MPID(mp-102), id_discharge=MPID(mp-975050))]","[MPID(mp-102), MPID(mp-975050)]","all_formulas=['Co', 'Rb3Co'] all_chemsys=['Co', 'Co-Rb'] all_formula_anonymous=['A', 'AB3'] all_elements=[Element Rb, Element Co] all_composition_reduced={'Co': [1.0], 'Rb': [3.0]}","InsertionElectrode with endpoints at Co and Rb3Co
+Avg. volt. = -1.1292822591666667 V
+Grav. cap. = 254.9797413652281 mAh/g
+Vol. cap. = 664.1584600898982","['battery_type', 'thermo_type']",9.026471225712273,2.604749915833711,10.841542632772713,201.02841042170553,0.0,0.0,0.0,0.8572649243749999,FM,FM,10.841542632772713,50.25710260542638
+,mp-21855_Rb,,Rb0-1VCu3Se4,Rb,1,0.0,2022-06-28 03:50:00,V1 Cu3 Se4,VCu3Se4,"[Element V, Element Cu, Element Se]",3,Cu-Se-V,AB3C4,[],VCu3Se4,RbVCu3Se4,0.2950368218026913,0.004911507500003909,41.689237204349645,190.48286528175575,0.20475700119860527,0.9355580214535776,0.0,0.1111111111111111,0.0,0.13520201749999927,mp-21855,mp-1179694,"Full Formula (V1 Cu3 Se4)
+Reduced Formula: VCu3Se4
+abc   :   5.650540   5.650540   5.650540
+angles:  90.000000  90.000000  90.000000
+pbc   :       True       True       True
+Sites (8)
+  #  SP          a        b        c    magmom
+---  ----  -------  -------  -------  --------
+  0  V     0        0        0           0.001
+  1  Cu    0        0.5      0          -0
+  2  Cu    0        0        0.5        -0
+  3  Cu    0.5      0        0          -0
+  4  Se    0.24202  0.24202  0.24202    -0
+  5  Se    0.75798  0.75798  0.24202    -0
+  6  Se    0.24202  0.75798  0.75798    -0
+  7  Se    0.75798  0.24202  0.75798    -0","[InsertionVoltagePairDoc(formula_charge='VCu3Se4', formula_discharge='RbVCu3Se4', max_delta_volume=0.2950368218026913, average_voltage=0.004911507500003909, capacity_grav=41.689237204349645, capacity_vol=190.48286528175575, energy_grav=0.20475700119860527, energy_vol=0.9355580214535776, fracA_charge=0.0, fracA_discharge=0.1111111111111111, stability_charge=0.0, stability_discharge=0.13520201749999927, id_charge=MPID(mp-21855), id_discharge=MPID(mp-1179694))]","[MPID(mp-21855), MPID(mp-1179694)]","all_formulas=['RbVCu3Se4', 'VCu3Se4'] all_chemsys=['Cu-Rb-Se-V', 'Cu-Se-V'] all_formula_anonymous=['AB3C4', 'ABC3D4'] all_elements=[Element Rb, Element V, Element Cu, Element Se] all_composition_reduced={'V': [1.0], 'Cu': [3.0], 'Se': [4.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at VCu3Se4 and RbVCu3Se4
+Avg. volt. = 0.004911507500003909 V
+Grav. cap. = 41.689237204349645 mAh/g
+Vol. cap. = 190.48286528175575","['battery_type', 'thermo_type']",5.341420812523915,4.56911370870693,173.29038260089234,233.64257165162786,0.8164000000000002,0.2951999999999999,0.0,0.13520225394444285,NM,FM,21.661297825111543,25.96028573906976
+,mp-1113808_Rb,,Rb0-2MnCuF6,Rb,1,0.0,2022-06-28 03:50:00,Mn1 Cu1 F6,MnCuF6,"[Element Mn, Element Cu, Element F]",3,Cu-F-Mn,ABC6,[],MnCuF6,Rb2MnCuF6,0.4992790033184211,4.403377962500001,132.8746281950786,597.0042256737612,585.0972095695904,2628.8352508512176,0.0,0.2,0.0,0.010917833999998905,mp-1206085,mp-1113808,"Full Formula (Mn1 Cu1 F6)
+Reduced Formula: MnCuF6
+abc   :   4.999293   5.102308   5.369224
+angles:  60.712037  62.248261  60.685868
+pbc   :       True       True       True
+Sites (8)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Mn    0.5       0.5       0.5          3.064
+  1  Cu    0         0         0            0.681
+  2  F     0.742222  0.371849  0.745944     0.039
+  3  F     0.257778  0.628151  0.254056     0.039
+  4  F     0.625363  0.860009  0.259584     0.041
+  5  F     0.374637  0.139991  0.740416     0.041
+  6  F     0.14963   0.728312  0.732691     0.013
+  7  F     0.85037   0.271688  0.267309     0.013","[InsertionVoltagePairDoc(formula_charge='MnCuF6', formula_discharge='Rb2MnCuF6', max_delta_volume=0.4992790033184211, average_voltage=4.403377962500001, capacity_grav=132.8746281950786, capacity_vol=597.0042256737612, energy_grav=585.0972095695904, energy_vol=2628.8352508512176, fracA_charge=0.0, fracA_discharge=0.2, stability_charge=0.0, stability_discharge=0.010917833999998905, id_charge=MPID(mp-1206085), id_discharge=MPID(mp-1113808))]","[MPID(mp-1206085), MPID(mp-1113808)]","all_formulas=['Rb2MnCuF6', 'MnCuF6'] all_chemsys=['Cu-F-Mn', 'Cu-F-Mn-Rb'] all_formula_anonymous=['ABC6', 'ABC2D6'] all_elements=[Element Rb, Element Mn, Element Cu, Element F] all_composition_reduced={'Mn': [1.0], 'Cu': [1.0], 'F': [6.0], 'Rb': [2.0]}","InsertionElectrode with endpoints at MnCuF6 and Rb2MnCuF6
+Avg. volt. = 4.403377962500001 V
+Grav. cap. = 132.8746281950786 mAh/g
+Vol. cap. = 597.0042256737612","['battery_type', 'thermo_type']",4.2210307029550345,4.492988869108731,91.45466047445505,149.09410883908933,0.0,0.0,0.0,0.010917833999999793,,FiM,11.431832559306882,14.909410883908933
+,mp-554465_Rb,,Rb0-1FeF3,Rb,1,0.0,2022-06-28 03:50:00,Fe1 F3,FeF3,"[Element Fe, Element F]",2,F-Fe,AB3,[],FeF3,RbFeF3,0.25721646771993933,1.9489258175000004,135.1507747943424,591.9104172440926,263.3988342518222,1153.5894938142096,0.0,0.2,0.011088768749999645,0.26615350650000025,mp-558852,mp-554465,"Full Formula (Fe1 F3)
+Reduced Formula: FeF3
+abc   :   3.910635   3.910635   3.910635
+angles:  90.000000  90.000000  90.000000
+pbc   :       True       True       True
+Sites (4)
+  #  SP      a    b    c    magmom
+---  ----  ---  ---  ---  --------
+  0  Fe    0    0    0        4.53
+  1  F     0    0    0.5      0.14
+  2  F     0.5  0    0        0.14
+  3  F     0    0.5  0        0.14","[InsertionVoltagePairDoc(formula_charge='FeF3', formula_discharge='RbFeF3', max_delta_volume=0.25721646771993933, average_voltage=1.9489258175000004, capacity_grav=135.1507747943424, capacity_vol=591.9104172440926, energy_grav=263.3988342518222, energy_vol=1153.5894938142096, fracA_charge=0.0, fracA_discharge=0.2, stability_charge=0.011088768749999645, stability_discharge=0.26615350650000025, id_charge=MPID(mp-558852), id_discharge=MPID(mp-554465))]","[MPID(mp-558852), MPID(mp-554465)]","all_formulas=['RbFeF3', 'FeF3'] all_chemsys=['F-Fe-Rb', 'F-Fe'] all_formula_anonymous=['ABC3', 'AB3'] all_elements=[Element Rb, Element Fe, Element F] all_composition_reduced={'Fe': [1.0], 'F': [3.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at FeF3 and RbFeF3
+Avg. volt. = 1.9489258175000004 V
+Grav. cap. = 135.1507747943424 mAh/g
+Vol. cap. = 591.9104172440926","['battery_type', 'thermo_type']",3.2592972556466613,4.379630216254737,172.4686902977397,75.18858462943221,2.8517,0.0,0.020977064583333593,0.2661429584999988,FM,FM,14.372390858144975,15.037716925886443
+,mp-556417_Rb,,Rb2-3NiF6,Rb,1,0.0,2022-06-28 03:50:00,Ni1 F6,NiF6,"[Element Ni, Element F]",2,F-Ni,AB6,['More than one working ion per transition metal'],Rb2NiF6,Rb3NiF6,0.17384794340890575,4.152851637500006,62.46161606801803,238.8443998659498,259.39382456896533,991.8853570910159,0.2222222222222222,0.3,0.0,0.03279147300000318,mp-556417,mp-1113628,"Full Formula (Ni1 F6)
+Reduced Formula: NiF6
+abc   :   6.077598   6.077598   6.077598
+angles:  60.000000  60.000000  60.000000
+pbc   :       True       True       True
+Sites (7)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Ni    0         0         0            0.009
+  1  F     0.789983  0.210017  0.789983    -0.001
+  2  F     0.210017  0.210017  0.789983    -0.001
+  3  F     0.789983  0.789983  0.210017    -0.001
+  4  F     0.210017  0.789983  0.210017    -0.001
+  5  F     0.210017  0.789983  0.789983    -0.001
+  6  F     0.789983  0.210017  0.210017    -0.001","[InsertionVoltagePairDoc(formula_charge='Rb2NiF6', formula_discharge='Rb3NiF6', max_delta_volume=0.17384794340890575, average_voltage=4.152851637500006, capacity_grav=62.46161606801803, capacity_vol=238.8443998659498, energy_grav=259.39382456896533, energy_vol=991.8853570910159, fracA_charge=0.2222222222222222, fracA_discharge=0.3, stability_charge=0.0, stability_discharge=0.03279147300000318, id_charge=MPID(mp-556417), id_discharge=MPID(mp-1113628))]","[MPID(mp-556417), MPID(mp-1113628)]","all_formulas=['Rb2NiF6', 'Rb3NiF6'] all_chemsys=['F-Ni-Rb'] all_formula_anonymous=['AB3C6', 'AB2C6'] all_elements=[Element Rb, Element Ni, Element F] all_composition_reduced={'Rb': [2.0, 3.0], 'Ni': [1.0], 'F': [6.0]}","InsertionElectrode with endpoints at Rb2NiF6 and Rb3NiF6
+Avg. volt. = 4.152851637500006 V
+Grav. cap. = 62.46161606801803 mAh/g
+Vol. cap. = 238.8443998659498","['battery_type', 'thermo_type']",3.9075184880580487,3.823858792307246,146.02450925512437,186.33431022447309,2.4215999999999998,0.0,0.0,0.03279322450000066,NM,FM,16.224945472791596,18.633431022447308
+,mp-24624_Rb,,Rb0-2CoH8(CO5)2,Rb,1,0.0,2022-06-28 03:50:00,Co1 H8 C2 O10,CoH8(CO5)2,"[Element Co, Element H, Element C, Element O]",4,C-Co-H-O,AB2C8D10,['More than one working ion per transition metal'],CoH8(CO5)2,Rb2CoH8(CO5)2,0.23233944311252497,3.7857823349999995,127.03697729641166,339.9079079552625,480.93434454055125,1286.8173534638386,0.0,0.08695652173913043,0.04606609220237967,0.025184798043481393,mp-772431,mp-24624,"Full Formula (Co2 H16 C4 O20)
+Reduced Formula: CoH8(CO5)2
+abc   :   6.031327   6.458808  11.986326
+angles:  65.529553  90.000000  90.000000
+pbc   :       True       True       True
+Sites (42)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Co    0         0         0            1.097
+  1  Co    0.5       0         0.5          1.097
+  2  H     0.683747  0.284813  0.930587    -0
+  3  H     0.690272  0.788455  0.982728     0.001
+  4  H     0.911178  0.421991  0.884685     0.001
+  5  H     0.852613  0.82927   0.860181     0
+  6  H     0.411178  0.578009  0.615315     0.001
+  7  H     0.352613  0.17073   0.639819     0
+  8  H     0.183747  0.715187  0.569413    -0
+  9  H     0.190272  0.211545  0.517272     0.001
+ 10  H     0.809728  0.788455  0.482728     0.001
+ 11  H     0.816253  0.284813  0.430587    -0
+ 12  H     0.647387  0.82927   0.360181     0
+ 13  H     0.588822  0.421991  0.384685     0.001
+ 14  H     0.147387  0.17073   0.139819     0
+ 15  H     0.088822  0.578009  0.115315     0.001
+ 16  H     0.309728  0.211545  0.017272     0.001
+ 17  H     0.316253  0.715187  0.069413    -0
+ 18  C     0.344148  0.253775  0.825395     0.001
+ 19  C     0.844148  0.746225  0.674605     0.001
+ 20  C     0.155852  0.253775  0.325395     0.001
+ 21  C     0.655852  0.746225  0.174605     0.001
+ 22  O     0.847472  0.283596  0.9537      -0.019
+ 23  O     0.429372  0.326586  0.900738     0.005
+ 24  O     0.789549  0.904578  0.913448    -0.02
+ 25  O     0.175402  0.110419  0.857121    -0.004
+ 26  O     0.915963  0.688594  0.783569    -0.016
+ 27  O     0.415963  0.311406  0.716431    -0.016
+ 28  O     0.675402  0.889581  0.642879    -0.004
+ 29  O     0.929372  0.673414  0.599262     0.005
+ 30  O     0.347472  0.716404  0.5463      -0.019
+ 31  O     0.289549  0.095422  0.586552    -0.02
+ 32  O     0.710451  0.904578  0.413448    -0.02
+ 33  O     0.652528  0.283596  0.4537      -0.019
+ 34  O     0.070628  0.326586  0.400738     0.005
+ 35  O     0.324598  0.110419  0.357121    -0.004
+ 36  O     0.584037  0.688594  0.283569    -0.016
+ 37  O     0.084037  0.311406  0.216431    -0.016
+ 38  O     0.824598  0.889581  0.142879    -0.004
+ 39  O     0.210451  0.095422  0.086552    -0.02
+ 40  O     0.570628  0.673414  0.099262     0.005
+ 41  O     0.152528  0.716404  0.0463      -0.019","[InsertionVoltagePairDoc(formula_charge='CoH8(CO5)2', formula_discharge='Rb2CoH8(CO5)2', max_delta_volume=0.23233944311252497, average_voltage=3.7857823349999995, capacity_grav=127.03697729641166, capacity_vol=339.9079079552625, energy_grav=480.93434454055125, energy_vol=1286.8173534638386, fracA_charge=0.0, fracA_discharge=0.08695652173913043, stability_charge=0.04606609220237967, stability_discharge=0.025184798043481393, id_charge=MPID(mp-772431), id_discharge=MPID(mp-24624))]","[MPID(mp-772431), MPID(mp-24624)]","all_formulas=['Rb2CoH8(CO5)2', 'CoH8(CO5)2'] all_chemsys=['C-Co-H-O', 'C-Co-H-O-Rb'] all_formula_anonymous=['AB2C2D8E10', 'AB2C8D10'] all_elements=[Element Rb, Element Co, Element H, Element C, Element O] all_composition_reduced={'Co': [1.0], 'H': [8.0], 'C': [2.0], 'O': [10.0], 'Rb': [2.0]}","InsertionElectrode with endpoints at CoH8(CO5)2 and Rb2CoH8(CO5)2
+Avg. volt. = 3.7857823349999995 V
+Grav. cap. = 127.03697729641166 mAh/g
+Vol. cap. = 339.9079079552625","['battery_type', 'thermo_type']",1.9615415388734816,2.6756611741847447,424.98760784517464,523.7289919816467,0.4276,3.6014,0.04616853785714259,0.025195883913046835,FM,FM,10.118752567742254,11.385412869166233
+,mp-1075911_Rb,,Rb0-1NbO3,Rb,1,0.0,2022-06-28 03:50:00,Nb1 O3,NbO3,"[Element Nb, Element O]",2,Nb-O,AB3,[],NbO3,RbNbO3,0.08330074680882071,3.9163151474999998,118.39554430343442,646.2787998192423,463.67426355204753,2531.0314532402185,0.0,0.2,0.18861530660714365,0.08273654200000102,mp-1220361,mp-1075911,"Full Formula (Nb1 O3)
+Reduced Formula: NbO3
+abc   :   3.985780   3.985780   4.001403
+angles:  90.000000  90.000000  90.000000
+pbc   :       True       True       True
+Sites (4)
+  #  SP      a    b         c    magmom
+---  ----  ---  ---  --------  --------
+  0  Nb    0    0    0.985976    -0.158
+  1  O     0.5  0    0.008034     0.323
+  2  O     0    0    0.502092     0.316
+  3  O     0    0.5  0.008034     0.323","[InsertionVoltagePairDoc(formula_charge='NbO3', formula_discharge='RbNbO3', max_delta_volume=0.08330074680882071, average_voltage=3.9163151474999998, capacity_grav=118.39554430343442, capacity_vol=646.2787998192423, energy_grav=463.67426355204753, energy_vol=2531.0314532402185, fracA_charge=0.0, fracA_discharge=0.2, stability_charge=0.18861530660714365, stability_discharge=0.08273654200000102, id_charge=MPID(mp-1220361), id_discharge=MPID(mp-1075911))]","[MPID(mp-1220361), MPID(mp-1075911)]","all_formulas=['RbNbO3', 'NbO3'] all_chemsys=['Nb-O', 'Nb-O-Rb'] all_formula_anonymous=['ABC3', 'AB3'] all_elements=[Element Rb, Element Nb, Element O] all_composition_reduced={'Nb': [1.0], 'O': [3.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at NbO3 and RbNbO3
+Avg. volt. = 3.9163151474999998 V
+Grav. cap. = 118.39554430343442 mAh/g
+Vol. cap. = 646.2787998192423","['battery_type', 'thermo_type']",3.6807410657251634,5.458641230108817,63.568057512018385,68.86332417595558,0.0,1.3563000000000003,0.18915314629464497,0.08273654200000102,FM,NM,15.892014378004596,13.772664835191117
+,mp-975531_Rb,,Rb0.33-1Cr5Te8,Rb,1,0.0,2022-06-28 03:50:00,Cr5 Te8,Cr5Te8,"[Element Cr, Element Te]",2,Cr-Te,A5B8,[],Rb(Cr5Te8)3,RbCr5Te8,0.023001301860844148,1.7521643925000052,13.077896672888278,76.36827796790884,22.914624879029127,133.80977737191253,0.025,0.07142857142857142,0.0025252812499898525,0.0,mp-1219831,mp-975531,"Full Formula (Cr15 Te24)
+Reduced Formula: Cr5Te8
+abc   :  10.419337  11.875572  11.844247
+angles:  60.040517  89.890568 112.425169
+pbc   :       True       True       True
+Sites (39)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Cr    0.512888  0.679405  0.315799     3.036
+  1  Cr    0.51325   0.013891  0.316742     3.03
+  2  Cr    0.513578  0.345642  0.315877     3.027
+  3  Cr    0.486422  0.654358  0.684123     3.027
+  4  Cr    0.48675   0.986109  0.683258     3.03
+  5  Cr    0.487112  0.320595  0.684201     3.036
+  6  Cr    0.832679  0.813814  0.592605     3.019
+  7  Cr    0.83369   0.150031  0.589768     3.033
+  8  Cr    0.83306   0.482759  0.591937     3.019
+  9  Cr    0.16694   0.517241  0.408063     3.019
+ 10  Cr    0.16631   0.849969  0.410232     3.033
+ 11  Cr    0.167321  0.186186  0.407395     3.019
+ 12  Cr    0.5       0         0            3.014
+ 13  Cr    0.50085   0.333753  0.000446     3.007
+ 14  Cr    0.49915   0.666247  0.999554     3.007
+ 15  Te    0.663499  0.627681  0.853168    -0.187
+ 16  Te    0.663158  0.960522  0.853637    -0.173
+ 17  Te    0.663884  0.29502   0.853413    -0.189
+ 18  Te    0.336116  0.70498   0.146587    -0.189
+ 19  Te    0.336842  0.039478  0.146363    -0.173
+ 20  Te    0.336501  0.372319  0.146832    -0.187
+ 21  Te    0.658333  0.626173  0.519849    -0.144
+ 22  Te    0.657581  0.959689  0.519912    -0.149
+ 23  Te    0.658347  0.29303   0.519624    -0.146
+ 24  Te    0.341653  0.70697   0.480376    -0.146
+ 25  Te    0.342419  0.040311  0.480088    -0.149
+ 26  Te    0.341667  0.373827  0.480151    -0.144
+ 27  Te    0.005433  0.662866  0.342714    -0.204
+ 28  Te    0.005213  0.99685   0.343176    -0.201
+ 29  Te    0.005233  0.330533  0.341496    -0.218
+ 30  Te    0.994767  0.669467  0.658504    -0.218
+ 31  Te    0.994787  0.00315   0.656824    -0.201
+ 32  Te    0.994567  0.337134  0.657286    -0.204
+ 33  Te    0.669381  0.968124  0.178032    -0.178
+ 34  Te    0.671362  0.301785  0.177378    -0.196
+ 35  Te    0.6695    0.63324   0.177661    -0.184
+ 36  Te    0.3305    0.36676   0.822339    -0.184
+ 37  Te    0.328638  0.698215  0.822622    -0.196
+ 38  Te    0.330619  0.031876  0.821968    -0.178","[InsertionVoltagePairDoc(formula_charge='Rb(Cr5Te8)3', formula_discharge='RbCr5Te8', max_delta_volume=0.023001301860844148, average_voltage=1.7521643925000052, capacity_grav=13.077896672888278, capacity_vol=76.36827796790884, energy_grav=22.914624879029127, energy_vol=133.80977737191253, fracA_charge=0.025, fracA_discharge=0.07142857142857142, stability_charge=0.0025252812499898525, stability_discharge=0.0, id_charge=MPID(mp-1219831), id_discharge=MPID(mp-975531))]","[MPID(mp-1219831), MPID(mp-975531)]","all_formulas=['Rb(Cr5Te8)3', 'RbCr5Te8'] all_chemsys=['Cr-Rb-Te'] all_formula_anonymous=['AB5C8', 'AB15C24'] all_elements=[Element Rb, Element Cr, Element Te] all_composition_reduced={'Rb': [1.0], 'Cr': [5.0, 15.0], 'Te': [24.0, 8.0]}","InsertionElectrode with endpoints at Rb(Cr5Te8)3 and RbCr5Te8
+Avg. volt. = 1.7521643925000052 V
+Grav. cap. = 13.077896672888278 mAh/g
+Vol. cap. = 76.36827796790884","['battery_type', 'thermo_type']",5.724674354917574,5.812636613040922,1139.327826254793,390.3062977884911,0.0,0.0,0.004225006416656463,0.0,FiM,FiM,28.483195656369826,27.879021270606508
+,mp-8117_Rb,,Rb0.11-0.33MoS,Rb,1,0.0,2022-06-28 03:50:00,Mo1 S1,MoS,"[Element Mo, Element S]",2,Mo-S,AB,[],Rb(MoS)9,Rb(MoS)3,0.058383381192652406,2.3580040875000003,38.05816548957546,180.1888671023841,89.74130978717038,424.8860851494161,0.05263157894736842,0.14285714285714285,0.06533870421053045,0.0,mp-1219766,mp-8117,"Full Formula (Mo18 S18)
+Reduced Formula: MoS
+abc   :   9.057501   9.057501  13.138611
+angles:  90.000000  90.000000 119.999995
+pbc   :       True       True       True
+Sites (36)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Mo    0.973164  0.81389   0.25             0
+  1  Mo    0.972364  0.812113  0.91676          0
+  2  Mo    0.972364  0.812113  0.58324          0
+  3  Mo    0.840726  0.026836  0.25             0
+  4  Mo    0.83975   0.027636  0.91676          0
+  5  Mo    0.83975   0.027636  0.58324          0
+  6  Mo    0.18611   0.159274  0.25             0
+  7  Mo    0.187887  0.16025   0.91676          0
+  8  Mo    0.187887  0.16025   0.58324          0
+  9  Mo    0.027636  0.187887  0.41676          0
+ 10  Mo    0.027636  0.187887  0.08324          0
+ 11  Mo    0.026836  0.18611   0.75             0
+ 12  Mo    0.16025   0.972364  0.41676          0
+ 13  Mo    0.16025   0.972364  0.08324          0
+ 14  Mo    0.159274  0.973164  0.75             0
+ 15  Mo    0.812113  0.83975   0.41676          0
+ 16  Mo    0.812113  0.83975   0.08324          0
+ 17  Mo    0.81389   0.840726  0.75             0
+ 18  S     0.290306  0.949214  0.25             0
+ 19  S     0.290345  0.949452  0.916472         0
+ 20  S     0.290345  0.949452  0.583528         0
+ 21  S     0.658907  0.709694  0.25             0
+ 22  S     0.659108  0.709655  0.916472         0
+ 23  S     0.659108  0.709655  0.583528         0
+ 24  S     0.050786  0.341093  0.25             0
+ 25  S     0.050548  0.340892  0.916472         0
+ 26  S     0.050548  0.340892  0.583528         0
+ 27  S     0.709655  0.050548  0.416472         0
+ 28  S     0.709655  0.050548  0.083528         0
+ 29  S     0.709694  0.050786  0.75             0
+ 30  S     0.340892  0.290345  0.416472         0
+ 31  S     0.340892  0.290345  0.083528         0
+ 32  S     0.341093  0.290306  0.75             0
+ 33  S     0.949452  0.659108  0.416472         0
+ 34  S     0.949452  0.659108  0.083528         0
+ 35  S     0.949214  0.658907  0.75             0","[InsertionVoltagePairDoc(formula_charge='Rb(MoS)9', formula_discharge='Rb(MoS)3', max_delta_volume=0.058383381192652406, average_voltage=2.3580040875000003, capacity_grav=38.05816548957546, capacity_vol=180.1888671023841, energy_grav=89.74130978717038, energy_vol=424.8860851494161, fracA_charge=0.05263157894736842, fracA_discharge=0.14285714285714285, stability_charge=0.06533870421053045, stability_discharge=0.0, id_charge=MPID(mp-1219766), id_discharge=MPID(mp-8117))]","[MPID(mp-1219766), MPID(mp-8117)]","all_formulas=['Rb(MoS)3', 'Rb(MoS)9'] all_chemsys=['Mo-Rb-S'] all_formula_anonymous=['AB3C3', 'AB9C9'] all_elements=[Element Rb, Element Mo, Element S] all_composition_reduced={'Rb': [1.0], 'Mo': [9.0, 3.0], 'S': [9.0, 3.0]}","InsertionElectrode with endpoints at Rb(MoS)9 and Rb(MoS)3
+Avg. volt. = 2.3580040875000003 V
+Grav. cap. = 38.05816548957546 mAh/g
+Vol. cap. = 180.1888671023841","['battery_type', 'thermo_type']",4.402829575976093,4.920467788288295,933.4625900717399,316.87821729159435,0.0,0.0,0.06614164078947127,0.0,NM,NM,24.56480500188789,22.634158377971026
+,mp-10033_Rb,,Rb0-0.5NbS2,Rb,1,0.0,2022-06-28 03:50:00,Nb1 S2,NbS2,"[Element Nb, Element S]",2,Nb-S,AB2,[],NbS2,Rb(NbS2)2,0.12010341366245947,1.3009464174999998,67.08075181494438,306.2287778181354,87.2684637568585,398.3872314379067,0.0,0.14285714285714285,0.0,0.10028402668571168,mp-10033,mp-1219792,"Full Formula (Nb2 S4)
+Reduced Formula: NbS2
+abc   :   3.362754   3.362754  13.248997
+angles:  90.000000  90.000000 119.999993
+pbc   :       True       True       True
+Sites (6)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Nb    0         0         0.25        -0.006
+  1  Nb    0         0         0.75        -0.003
+  2  S     0.333333  0.666667  0.368238    -0
+  3  S     0.666667  0.333333  0.631762     0
+  4  S     0.666667  0.333333  0.868238     0
+  5  S     0.333333  0.666667  0.131762    -0","[InsertionVoltagePairDoc(formula_charge='NbS2', formula_discharge='Rb(NbS2)2', max_delta_volume=0.12010341366245947, average_voltage=1.3009464174999998, capacity_grav=67.08075181494438, capacity_vol=306.2287778181354, energy_grav=87.2684637568585, energy_vol=398.3872314379067, fracA_charge=0.0, fracA_discharge=0.14285714285714285, stability_charge=0.0, stability_discharge=0.10028402668571168, id_charge=MPID(mp-10033), id_discharge=MPID(mp-1219792))]","[MPID(mp-10033), MPID(mp-1219792)]","all_formulas=['Rb(NbS2)2', 'NbS2'] all_chemsys=['Nb-Rb-S', 'Nb-S'] all_formula_anonymous=['AB2C4', 'AB2'] all_elements=[Element Rb, Element Nb, Element S] all_composition_reduced={'Nb': [1.0, 2.0], 'S': [2.0, 4.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at NbS2 and Rb(NbS2)2
+Avg. volt. = 1.3009464174999998 V
+Grav. cap. = 67.08075181494438 mAh/g
+Vol. cap. = 306.2287778181354","['battery_type', 'thermo_type']",4.203264240289562,4.565076708697339,124.07739745121462,145.33221474838257,0.0,0.0,0.0,0.1002840266857099,FM,NM,20.679566241869104,20.761744964054653
+,mp-7564_Rb,,Rb0-0.5Nb3Te4,Rb,1,0.0,2022-06-28 03:50:00,Nb3 Te4,Nb3Te4,"[Element Nb, Element Te]",2,Nb-Te,A3B4,[],Nb3Te4,Rb(Nb3Te4)2,0.02999762617963908,1.0121850975000009,16.10950483835696,115.92566826778939,16.305800725489075,117.33823383838516,0.0,0.06666666666666667,0.0,0.00529111458333098,mp-7564,mp-1219686,"Full Formula (Nb6 Te8)
+Reduced Formula: Nb3Te4
+abc   :  10.839435  10.839435   3.663095
+angles:  90.000000  90.000000 120.000004
+pbc   :       True       True       True
+Sites (14)
+  #  SP           a         b     c    magmom
+---  ----  --------  --------  ----  --------
+  0  Nb    0.102652  0.614101  0.75        -0
+  1  Nb    0.385899  0.488551  0.75        -0
+  2  Nb    0.511449  0.897348  0.75        -0
+  3  Nb    0.897348  0.385899  0.25        -0
+  4  Nb    0.614101  0.511449  0.25        -0
+  5  Nb    0.488551  0.102652  0.25        -0
+  6  Te    0.666667  0.333333  0.75        -0
+  7  Te    0.333333  0.666667  0.25        -0
+  8  Te    0.273248  0.934755  0.75         0
+  9  Te    0.065245  0.338493  0.75         0
+ 10  Te    0.661507  0.726752  0.75         0
+ 11  Te    0.726752  0.065245  0.25         0
+ 12  Te    0.934755  0.661507  0.25         0
+ 13  Te    0.338493  0.273248  0.25         0","[InsertionVoltagePairDoc(formula_charge='Nb3Te4', formula_discharge='Rb(Nb3Te4)2', max_delta_volume=0.02999762617963908, average_voltage=1.0121850975000009, capacity_grav=16.10950483835696, capacity_vol=115.92566826778939, energy_grav=16.305800725489075, energy_vol=117.33823383838516, fracA_charge=0.0, fracA_discharge=0.06666666666666667, stability_charge=0.0, stability_discharge=0.00529111458333098, id_charge=MPID(mp-7564), id_discharge=MPID(mp-1219686))]","[MPID(mp-7564), MPID(mp-1219686)]","all_formulas=['Nb3Te4', 'Rb(Nb3Te4)2'] all_chemsys=['Nb-Rb-Te', 'Nb-Te'] all_formula_anonymous=['A3B4', 'AB6C8'] all_elements=[Element Rb, Element Nb, Element Te] all_composition_reduced={'Nb': [3.0, 6.0], 'Te': [8.0, 4.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at Nb3Te4 and Rb(Nb3Te4)2
+Avg. volt. = 1.0121850975000009 V
+Grav. cap. = 16.10950483835696 mAh/g
+Vol. cap. = 115.92566826778939","['battery_type', 'thermo_type']",7.014785615392115,7.196103753090368,373.60034419200065,383.90899241739316,0.0,0.3343999999999996,0.0,0.0055570292916646835,NM,NM,26.68573887085719,25.59393282782621
+,mp-558111_Rb,,Rb2-3MnF6,Rb,1,0.0,2022-06-28 03:50:00,Mn1 F6,MnF6,"[Element Mn, Element F]",2,F-Mn,AB6,['More than one working ion per transition metal'],Rb2MnF6,Rb3MnF6,0.1915672356680187,2.8571698374999945,63.01310435740425,226.32723339767492,180.0391411372149,646.6553446686581,0.2222222222222222,0.3,0.0,0.056035324000004216,mp-558111,mp-1113828,"Full Formula (Mn1 F6)
+Reduced Formula: MnF6
+abc   :   6.156811   6.156811   6.156811
+angles:  60.000000  60.000000  60.000000
+pbc   :       True       True       True
+Sites (7)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Mn    0         0         0            2.973
+  1  F     0.787581  0.787581  0.212419    -0.004
+  2  F     0.787581  0.212419  0.787581    -0.004
+  3  F     0.212419  0.787581  0.212419    -0.004
+  4  F     0.212419  0.212419  0.787581    -0.004
+  5  F     0.212419  0.787581  0.787581    -0.004
+  6  F     0.787581  0.212419  0.212419    -0.004","[InsertionVoltagePairDoc(formula_charge='Rb2MnF6', formula_discharge='Rb3MnF6', max_delta_volume=0.1915672356680187, average_voltage=2.8571698374999945, capacity_grav=63.01310435740425, capacity_vol=226.32723339767492, energy_grav=180.0391411372149, energy_vol=646.6553446686581, fracA_charge=0.2222222222222222, fracA_discharge=0.3, stability_charge=0.0, stability_discharge=0.056035324000004216, id_charge=MPID(mp-558111), id_discharge=MPID(mp-1113828))]","[MPID(mp-558111), MPID(mp-1113828)]","all_formulas=['Rb2MnF6', 'Rb3MnF6'] all_chemsys=['F-Mn-Rb'] all_formula_anonymous=['AB3C6', 'AB2C6'] all_elements=[Element Rb, Element Mn, Element F] all_composition_reduced={'Rb': [2.0, 3.0], 'Mn': [1.0], 'F': [6.0]}","InsertionElectrode with endpoints at Rb2MnF6 and Rb3MnF6
+Avg. volt. = 2.8571698374999945 V
+Grav. cap. = 63.01310435740425 mAh/g
+Vol. cap. = 226.32723339767492","['battery_type', 'thermo_type']",3.7859750885570747,3.5917486628774045,149.06531150806927,196.63964354568563,3.3045,0.0,0.001436264444444113,0.056035324000004216,FM,FM,16.562812389785474,19.663964354568563
+,mp-19029_Rb,,Rb0-0.25CrO2,Rb,1,0.0,2022-06-28 03:50:00,Cr1 O2,CrO2,"[Element Cr, Element O]",2,Cr-O,AB2,[],CrO2,RbCr4O8,0.03265818416941757,4.053075567499994,63.59389367537655,294.23175194860687,257.7508566978611,1192.5435250056173,0.0,0.07692307692307693,0.06626740499998363,0.04277141951924257,mp-1394584,mp-19029,"Full Formula (Cr4 O8)
+Reduced Formula: CrO2
+abc   :   2.998848   7.146973   7.148640
+angles:  87.738946  77.889920  77.898659
+pbc   :       True       True       True
+Sites (12)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Cr    0.655512  0.182092  0.51247      2.327
+  1  Cr    0.167544  0.487198  0.182555     2.326
+  2  Cr    0.836229  0.513157  0.819528     2.325
+  3  Cr    0.348329  0.81826   0.489718     2.327
+  4  O     0.838953  0.700674  0.626212    -0.183
+  5  O     0.464034  0.377228  0.699941    -0.183
+  6  O     0.539753  0.62317   0.302173    -0.183
+  7  O     0.164854  0.299686  0.375932    -0.183
+  8  O     0.160529  0.048322  0.635852    -0.136
+  9  O     0.796592  0.364716  0.04693     -0.134
+ 10  O     0.843297  0.952042  0.366351    -0.136
+ 11  O     0.207226  0.63563   0.955153    -0.134","[InsertionVoltagePairDoc(formula_charge='CrO2', formula_discharge='RbCr4O8', max_delta_volume=0.03265818416941757, average_voltage=4.053075567499994, capacity_grav=63.59389367537655, capacity_vol=294.23175194860687, energy_grav=257.7508566978611, energy_vol=1192.5435250056173, fracA_charge=0.0, fracA_discharge=0.07692307692307693, stability_charge=0.06626740499998363, stability_discharge=0.04277141951924257, id_charge=MPID(mp-1394584), id_discharge=MPID(mp-19029))]","[MPID(mp-1394584), MPID(mp-19029)]","all_formulas=['CrO2', 'RbCr4O8'] all_chemsys=['Cr-O', 'Cr-O-Rb'] all_formula_anonymous=['AB4C8', 'AB2'] all_elements=[Element Rb, Element Cr, Element O] all_composition_reduced={'Cr': [1.0, 4.0], 'O': [8.0, 2.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at CrO2 and RbCr4O8
+Avg. volt. = 4.053075567499994 V
+Grav. cap. = 63.59389367537655 mAh/g
+Vol. cap. = 294.23175194860687","['battery_type', 'thermo_type']",3.8089058894458425,4.626729625156647,146.47441222597683,151.25800055655998,1.0567,0.3641000000000001,0.06626740499996764,0.043284203557703904,FM,FiM,12.206201018831402,11.635230812043075
+,mp-1207560_Rb,,Rb0-1Zr6MnCl14,Rb,1,0.0,2022-06-28 03:50:00,Zr6 Mn1 Cl14,Zr6MnCl14,"[Element Zr, Element Mn, Element Cl]",3,Cl-Mn-Zr,AB6C14,[],Zr6MnCl14,RbZr6MnCl14,0.0031613383664486072,2.5013192025000195,22.63463029370318,75.82242294048481,56.61643539512842,189.65608248111266,0.0,0.045454545454545456,0.0,0.0,mp-1207560,mp-1209676,"Full Formula (Zr12 Mn2 Cl28)
+Reduced Formula: Zr6MnCl14
+abc   :   9.915351   9.915351  11.994460
+angles:  90.000000  90.000000  97.083475
+pbc   :       True       True       True
+Sites (42)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Zr    0.951807  0.193142  0.121669    -0.1
+  1  Zr    0.048193  0.806858  0.878331    -0.1
+  2  Zr    0.548193  0.306858  0.621669    -0.1
+  3  Zr    0.693142  0.451807  0.378331    -0.102
+  4  Zr    0.451807  0.693142  0.378331    -0.1
+  5  Zr    0.306858  0.548193  0.621669    -0.102
+  6  Zr    0.806858  0.048193  0.878331    -0.102
+  7  Zr    0.193142  0.951807  0.121669    -0.102
+  8  Zr    0.350831  0.350831  0.393367    -0.115
+  9  Zr    0.649169  0.649169  0.606633    -0.115
+ 10  Zr    0.149169  0.149169  0.893367    -0.115
+ 11  Zr    0.850831  0.850831  0.106633    -0.115
+ 12  Mn    0         0         0           -0.003
+ 13  Mn    0.5       0.5       0.5         -0.003
+ 14  Cl    0.291156  0.533632  0.256621    -0.003
+ 15  Cl    0.708844  0.466368  0.743379    -0.003
+ 16  Cl    0.208844  0.966368  0.756621    -0.003
+ 17  Cl    0.033632  0.791156  0.243379    -0.004
+ 18  Cl    0.791156  0.033632  0.243379    -0.003
+ 19  Cl    0.966368  0.208844  0.756621    -0.004
+ 20  Cl    0.466368  0.708844  0.743379    -0.004
+ 21  Cl    0.533632  0.291156  0.256621    -0.004
+ 22  Cl    0.117734  0.359918  0.01084     -0.003
+ 23  Cl    0.882266  0.640082  0.98916     -0.003
+ 24  Cl    0.382266  0.140082  0.51084     -0.003
+ 25  Cl    0.859918  0.617734  0.48916     -0.004
+ 26  Cl    0.617734  0.859918  0.48916     -0.003
+ 27  Cl    0.140082  0.382266  0.51084     -0.004
+ 28  Cl    0.640082  0.882266  0.98916     -0.004
+ 29  Cl    0.359918  0.117734  0.01084     -0.004
+ 30  Cl    0.902788  0.402788  0.25        -0.004
+ 31  Cl    0.097212  0.597212  0.75        -0.004
+ 32  Cl    0.597212  0.097212  0.75        -0.004
+ 33  Cl    0.402788  0.902788  0.25        -0.004
+ 34  Cl    0.753109  0.246891  0            0.001
+ 35  Cl    0.246891  0.753109  0            0.001
+ 36  Cl    0.746891  0.253109  0.5          0.001
+ 37  Cl    0.253109  0.746891  0.5          0.001
+ 38  Cl    0.154282  0.154282  0.260028    -0.002
+ 39  Cl    0.845718  0.845718  0.739972    -0.002
+ 40  Cl    0.345718  0.345718  0.760028    -0.002
+ 41  Cl    0.654282  0.654282  0.239972    -0.002","[InsertionVoltagePairDoc(formula_charge='Zr6MnCl14', formula_discharge='RbZr6MnCl14', max_delta_volume=0.0031613383664486072, average_voltage=2.5013192025000195, capacity_grav=22.63463029370318, capacity_vol=75.82242294048481, energy_grav=56.61643539512842, energy_vol=189.65608248111266, fracA_charge=0.0, fracA_discharge=0.045454545454545456, stability_charge=0.0, stability_discharge=0.0, id_charge=MPID(mp-1207560), id_discharge=MPID(mp-1209676))]","[MPID(mp-1207560), MPID(mp-1209676)]","all_formulas=['Zr6MnCl14', 'RbZr6MnCl14'] all_chemsys=['Cl-Mn-Zr', 'Cl-Mn-Rb-Zr'] all_formula_anonymous=['AB6C14', 'ABC6D14'] all_elements=[Element Rb, Element Zr, Element Mn, Element Cl] all_composition_reduced={'Zr': [6.0], 'Mn': [1.0], 'Cl': [14.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at Zr6MnCl14 and RbZr6MnCl14
+Avg. volt. = 2.5013192025000195 V
+Grav. cap. = 22.63463029370318 mAh/g
+Vol. cap. = 75.82242294048481","['battery_type', 'thermo_type']",3.2619674252664095,3.349841456671618,1118.5324121252513,1173.92467225515,0.15959999999999996,1.2076000000000002,0.0,0.0,FM,NM,26.631724098220268,26.680106187617046
+,mp-30547_Rb,,Rb0-1Cr3O8,Rb,1,0.0,2022-06-28 03:50:00,Cr3 O8,Cr3O8,"[Element Cr, Element O]",2,Cr-O,A3B8,[],Cr3O8,RbCr3O8,0.2030619366475679,5.238161297500006,72.54401634359898,219.40259187944892,379.9972587762481,1149.2661653541184,0.0,0.08333333333333333,0.0493323494545459,0.0,mp-545796,mp-30547,"Full Formula (Cr3 O8)
+Reduced Formula: Cr3O8
+abc   :   5.260464   5.260485   6.881507
+angles:  88.318000  88.317542  62.366481
+pbc   :       True       True       True
+Sites (11)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Cr    0.360152  0.360146  0.271811     0.156
+  1  Cr    7.2e-05   7.3e-05   0.500002     2.126
+  2  Cr    0.639951  0.639958  0.728097     0.157
+  3  O     0.788124  0.278409  0.690189    -0.06
+  4  O     0.213715  0.213711  0.426554    -0.042
+  5  O     0.211882  0.721496  0.309793    -0.06
+  6  O     0.689978  0.689977  0.94765     -0.049
+  7  O     0.2784    0.788136  0.690196    -0.06
+  8  O     0.309955  0.309956  0.052365    -0.048
+  9  O     0.721505  0.21187   0.309786    -0.06
+ 10  O     0.786264  0.786268  0.573556    -0.042","[InsertionVoltagePairDoc(formula_charge='Cr3O8', formula_discharge='RbCr3O8', max_delta_volume=0.2030619366475679, average_voltage=5.238161297500006, capacity_grav=72.54401634359898, capacity_vol=219.40259187944892, energy_grav=379.9972587762481, energy_vol=1149.2661653541184, fracA_charge=0.0, fracA_discharge=0.08333333333333333, stability_charge=0.0493323494545459, stability_discharge=0.0, id_charge=MPID(mp-545796), id_discharge=MPID(mp-30547))]","[MPID(mp-545796), MPID(mp-30547)]","all_formulas=['Cr3O8', 'RbCr3O8'] all_chemsys=['Cr-O', 'Cr-O-Rb'] all_formula_anonymous=['A3B8', 'AB3C8'] all_elements=[Element Rb, Element Cr, Element O] all_composition_reduced={'Cr': [3.0], 'O': [8.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at Cr3O8 and RbCr3O8
+Avg. volt. = 5.238161297500006 V
+Grav. cap. = 72.54401634359898 mAh/g
+Vol. cap. = 219.40259187944892","['battery_type', 'thermo_type']",2.7968170089442657,3.2965262693520123,168.60799062352896,372.20289888771185,0.5108999999999999,1.5565,0.04964527436363664,0.0,FM,FM,15.327999147593543,15.508454120321327
+,mp-1014373_Rb,,Rb0-1CrN2,Rb,1,0.0,2022-06-28 03:50:00,Cr1 N2,CrN2,"[Element Cr, Element N]",2,Cr-N,AB2,[],CrN2,RbCrN2,0.06779251863460445,2.2573614437500025,161.96469935975443,656.6275672610196,365.6128675832704,1482.2457532383871,0.0,0.25,0.3494186049999968,0.0,mp-1014373,mp-1029828,"Full Formula (Cr2 N4)
+Reduced Formula: CrN2
+abc   :   5.641340   5.641340   5.641340
+angles:  60.000000  60.000000  60.000000
+pbc   :       True       True       True
+Sites (6)
+  #  SP        a      b      c    magmom
+---  ----  -----  -----  -----  --------
+  0  Cr    0.25   0.25   0.25         -0
+  1  Cr    0      0      0            -0
+  2  N     0.125  0.125  0.625         0
+  3  N     0.125  0.625  0.125         0
+  4  N     0.625  0.125  0.125         0
+  5  N     0.125  0.125  0.125         0","[InsertionVoltagePairDoc(formula_charge='CrN2', formula_discharge='RbCrN2', max_delta_volume=0.06779251863460445, average_voltage=2.2573614437500025, capacity_grav=161.96469935975443, capacity_vol=656.6275672610196, energy_grav=365.6128675832704, energy_vol=1482.2457532383871, fracA_charge=0.0, fracA_discharge=0.25, stability_charge=0.3494186049999968, stability_discharge=0.0, id_charge=MPID(mp-1014373), id_discharge=MPID(mp-1029828))]","[MPID(mp-1014373), MPID(mp-1029828)]","all_formulas=['CrN2', 'RbCrN2'] all_chemsys=['Cr-N', 'Cr-N-Rb'] all_formula_anonymous=['ABC2', 'AB2'] all_elements=[Element Rb, Element Cr, Element N] all_composition_reduced={'Cr': [1.0], 'N': [2.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at CrN2 and RbCrN2
+Avg. volt. = 2.2573614437500025 V
+Grav. cap. = 161.96469935975443 mAh/g
+Vol. cap. = 656.6275672610196","['battery_type', 'thermo_type']",2.0930940657135544,4.054140004764917,126.94976554132066,542.2240395497572,0.0,0.0,0.3494186050000003,0.0,NM,NM,21.158294256886776,16.944501235929913
+,mp-15405_Rb,,Rb0-1Mo2P3O13,Rb,1,0.0,2022-06-28 03:50:00,Mo2 P3 O13,Mo2P3O13,"[Element Mo, Element P, Element O]",3,Mo-O-P,A2B3C13,[],Mo2P3O13,RbMo2P3O13,0.034253998849643086,4.248093362499993,46.348392663042446,146.3976129572506,196.89229923441397,621.9107278895392,0.0,0.05263157894736842,0.0,0.0,mp-585184,mp-15405,"Full Formula (Mo8 P12 O52)
+Reduced Formula: Mo2P3O13
+abc   :  19.234038   6.436071   9.905148
+angles:  73.507782  90.000000  90.000000
+pbc   :       True       True       True
+Sites (72)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Mo    0.212943  0.936925  0.388975    -1.018
+  1  Mo    0.183511  0.629512  0.938546    -0.013
+  2  Mo    0.498499  0.868471  0.068207     0.004
+  3  Mo    0.46781   0.561139  0.619389     1.015
+  4  Mo    0.96781   0.438861  0.380611     1.015
+  5  Mo    0.998499  0.131529  0.931793     0.004
+  6  Mo    0.683511  0.370488  0.061454    -0.013
+  7  Mo    0.712943  0.063075  0.611025    -1.018
+  8  P     0.663896  0.911178  0.962352    -0.001
+  9  P     0.931075  0.984009  0.288392     0.003
+ 10  P     0.306874  0.760354  0.696969    -0.001
+ 11  P     0.374485  0.738332  0.310337     0.001
+ 12  P     0.516941  0.409668  0.967854     0.001
+ 13  P     0.750054  0.517628  0.703533    -0.003
+ 14  P     0.250054  0.482372  0.296467    -0.003
+ 15  P     0.016941  0.590332  0.032146     0.001
+ 16  P     0.874485  0.261668  0.689663     0.001
+ 17  P     0.806874  0.239646  0.303031    -0.001
+ 18  P     0.431075  0.015991  0.711608     0.003
+ 19  P     0.163896  0.088822  0.037648    -0.001
+ 20  O     0.449055  0.963479  0.868189     0.002
+ 21  O     0.186097  0.93057   0.953427    -0
+ 22  O     0.583878  0.923102  0.940842     0.001
+ 23  O     0.702145  0.961436  0.824111    -0.011
+ 24  O     0.347979  0.972519  0.705977    -0.001
+ 25  O     0.998709  0.821656  0.938528     0.001
+ 26  O     0.467896  0.874577  0.63364      0.015
+ 27  O     0.127933  0.941972  0.431838     0.109
+ 28  O     0.247508  0.835943  0.594927    -0.013
+ 29  O     0.325364  0.903666  0.337473     0.004
+ 30  O     0.135595  0.701546  0.788533    -0
+ 31  O     0.274479  0.671303  0.849716     0.001
+ 32  O     0.742435  0.754717  0.620611    -0.012
+ 33  O     0.938881  0.747203  0.371704     0.012
+ 34  O     0.54761   0.797452  0.216633     0.002
+ 35  O     0.407814  0.826249  0.158329     0
+ 36  O     0.355699  0.595422  0.668492    -0.004
+ 37  O     0.731382  0.465085  0.859787    -0.003
+ 38  O     0.996482  0.433102  0.945973     0.001
+ 39  O     0.433651  0.662845  0.413143     0.013
+ 40  O     0.596437  0.424178  0.938884     0
+ 41  O     0.475713  0.458943  0.833014     0.011
+ 42  O     0.553262  0.554809  0.58004     -0.104
+ 43  O     0.213551  0.623356  0.375189    -0.015
+ 44  O     0.83323   0.473649  0.699061     0.001
+ 45  O     0.183915  0.319577  0.945616     0
+ 46  O     0.683915  0.680423  0.054384     0
+ 47  O     0.33323   0.526351  0.300939     0.001
+ 48  O     0.713551  0.376644  0.624811    -0.015
+ 49  O     0.053262  0.445191  0.41996     -0.104
+ 50  O     0.975713  0.541057  0.166986     0.011
+ 51  O     0.096437  0.575822  0.061116     0
+ 52  O     0.933651  0.337155  0.586857     0.013
+ 53  O     0.496482  0.566898  0.054027     0.001
+ 54  O     0.231382  0.534915  0.140213    -0.003
+ 55  O     0.855699  0.404578  0.331508    -0.004
+ 56  O     0.907814  0.173751  0.841671     0
+ 57  O     0.04761   0.202548  0.783367     0.002
+ 58  O     0.438881  0.252797  0.628296     0.012
+ 59  O     0.242435  0.245283  0.379389    -0.012
+ 60  O     0.774479  0.328697  0.150284     0.001
+ 61  O     0.635595  0.298454  0.211467    -0
+ 62  O     0.825364  0.096334  0.662527     0.004
+ 63  O     0.747508  0.164057  0.405073    -0.013
+ 64  O     0.627933  0.058028  0.568162     0.109
+ 65  O     0.967896  0.125423  0.36636      0.015
+ 66  O     0.498709  0.178344  0.061472     0.001
+ 67  O     0.847979  0.027481  0.294023    -0.001
+ 68  O     0.202145  0.038564  0.175889    -0.011
+ 69  O     0.083878  0.076898  0.059158     0.001
+ 70  O     0.686097  0.06943   0.046573    -0
+ 71  O     0.949055  0.036521  0.131811     0.002","[InsertionVoltagePairDoc(formula_charge='Mo2P3O13', formula_discharge='RbMo2P3O13', max_delta_volume=0.034253998849643086, average_voltage=4.248093362499993, capacity_grav=46.348392663042446, capacity_vol=146.3976129572506, energy_grav=196.89229923441397, energy_vol=621.9107278895392, fracA_charge=0.0, fracA_discharge=0.05263157894736842, stability_charge=0.0, stability_discharge=0.0, id_charge=MPID(mp-585184), id_discharge=MPID(mp-15405))]","[MPID(mp-585184), MPID(mp-15405)]","all_formulas=['RbMo2P3O13', 'Mo2P3O13'] all_chemsys=['Mo-O-P', 'Mo-O-P-Rb'] all_formula_anonymous=['AB2C3D13', 'A2B3C13'] all_elements=[Element Rb, Element Mo, Element P, Element O] all_composition_reduced={'Mo': [2.0], 'P': [3.0], 'O': [13.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at Mo2P3O13 and RbMo2P3O13
+Avg. volt. = 4.248093362499993 V
+Grav. cap. = 46.348392663042446 mAh/g
+Vol. cap. = 146.3976129572506","['battery_type', 'thermo_type']",2.7839880528074565,3.158634086212748,1175.727509956516,1216.0008787300603,0.8492000000000001,2.2787,0.0,0.0,AFM,FM,16.329548749396057,16.000011562237635
+,mp-770576_Rb,,Rb0-2FeH12(SO7)2,Rb,1,0.0,2022-06-28 03:50:00,Fe1 H12 S2 O14,FeH12(SO7)2,"[Element Fe, Element H, Element S, Element O]",4,Fe-H-O-S,AB2C12D14,['More than one working ion per transition metal'],FeH12(SO7)2,Rb2FeH12(SO7)2,0.0512038553838019,4.347725075000006,101.71388730497873,248.68445067387802,442.2240183115808,1081.2116219574216,0.0,0.06451612903225806,0.02508418366376297,0.0,mp-770576,mp-1198856,"Full Formula (Fe2 H24 S4 O28)
+Reduced Formula: FeH12(SO7)2
+abc   :  12.550510   6.289169   9.037442
+angles:  72.673584  90.000000  90.000000
+pbc   :       True       True       True
+Sites (58)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Fe    0         0         0            4.427
+  1  Fe    0.5       0         0.5          4.427
+  2  H     0.06077   0.334613  0.101845     0.003
+  3  H     0.860188  0.676694  0.0356       0.002
+  4  H     0.40534   0.063216  0.221223     0.003
+  5  H     0.633672  0.086452  0.259388     0.003
+  6  H     0.315002  0.003574  0.354484     0.003
+  7  H     0.099218  0.675062  0.211481     0.002
+  8  H     0.599218  0.324938  0.288519     0.002
+  9  H     0.815002  0.996426  0.145516     0.003
+ 10  H     0.133672  0.913548  0.240612     0.003
+ 11  H     0.90534   0.936784  0.278777     0.003
+ 12  H     0.360188  0.323306  0.4644       0.002
+ 13  H     0.56077   0.665387  0.398155     0.003
+ 14  H     0.43923   0.334613  0.601845     0.003
+ 15  H     0.639812  0.676694  0.5356       0.002
+ 16  H     0.09466   0.063216  0.721223     0.003
+ 17  H     0.866328  0.086452  0.759388     0.003
+ 18  H     0.184998  0.003574  0.854484     0.003
+ 19  H     0.400782  0.675062  0.711481     0.002
+ 20  H     0.900782  0.324938  0.788519     0.002
+ 21  H     0.684998  0.996426  0.645516     0.003
+ 22  H     0.366328  0.913548  0.740612     0.003
+ 23  H     0.59466   0.936784  0.778777     0.003
+ 24  H     0.139812  0.323306  0.9644       0.002
+ 25  H     0.93923   0.665387  0.898155     0.003
+ 26  S     0.646647  0.742253  0.106179    -0.011
+ 27  S     0.146647  0.257747  0.393821    -0.011
+ 28  S     0.853353  0.742253  0.606179    -0.011
+ 29  S     0.353353  0.257747  0.893821    -0.011
+ 30  O     0.064251  0.291778  0.003383     0.076
+ 31  O     0.419875  0.192789  0.035415     0.182
+ 32  O     0.892803  0.012164  0.165247     0.075
+ 33  O     0.738068  0.609268  0.079027     0.163
+ 34  O     0.685709  0.944211  0.145446     0.033
+ 35  O     0.106635  0.840324  0.163547     0.073
+ 36  O     0.081735  0.39981   0.262647     0.057
+ 37  O     0.581735  0.60019   0.237353     0.057
+ 38  O     0.606635  0.159676  0.336453     0.073
+ 39  O     0.185709  0.055789  0.354554     0.033
+ 40  O     0.238068  0.390732  0.420973     0.163
+ 41  O     0.392803  0.987836  0.334753     0.075
+ 42  O     0.435749  0.291778  0.503383     0.076
+ 43  O     0.080125  0.192789  0.535415     0.182
+ 44  O     0.919875  0.807211  0.464585     0.182
+ 45  O     0.564251  0.708222  0.496617     0.076
+ 46  O     0.607197  0.012164  0.665247     0.075
+ 47  O     0.761932  0.609268  0.579027     0.163
+ 48  O     0.814291  0.944211  0.645446     0.033
+ 49  O     0.393365  0.840324  0.663547     0.073
+ 50  O     0.418265  0.39981   0.762647     0.057
+ 51  O     0.918265  0.60019   0.737353     0.057
+ 52  O     0.893365  0.159676  0.836453     0.073
+ 53  O     0.314291  0.055789  0.854554     0.033
+ 54  O     0.261932  0.390732  0.920973     0.163
+ 55  O     0.107197  0.987836  0.834753     0.075
+ 56  O     0.580125  0.807211  0.964585     0.182
+ 57  O     0.935749  0.708222  0.996617     0.076","[InsertionVoltagePairDoc(formula_charge='FeH12(SO7)2', formula_discharge='Rb2FeH12(SO7)2', max_delta_volume=0.0512038553838019, average_voltage=4.347725075000006, capacity_grav=101.71388730497873, capacity_vol=248.68445067387802, energy_grav=442.2240183115808, energy_vol=1081.2116219574216, fracA_charge=0.0, fracA_discharge=0.06451612903225806, stability_charge=0.02508418366376297, stability_discharge=0.0, id_charge=MPID(mp-770576), id_discharge=MPID(mp-1198856))]","[MPID(mp-770576), MPID(mp-1198856)]","all_formulas=['Rb2FeH12(SO7)2', 'FeH12(SO7)2'] all_chemsys=['Fe-H-O-Rb-S', 'Fe-H-O-S'] all_formula_anonymous=['AB2C2D12E14', 'AB2C12D14'] all_elements=[Element Rb, Element Fe, Element H, Element S, Element O] all_composition_reduced={'Fe': [1.0], 'H': [12.0], 'S': [2.0], 'O': [14.0], 'Rb': [2.0]}","InsertionElectrode with endpoints at FeH12(SO7)2 and Rb2FeH12(SO7)2
+Avg. volt. = 4.347725075000006 V
+Grav. cap. = 101.71388730497873 mAh/g
+Vol. cap. = 248.68445067387802","['battery_type', 'thermo_type']",1.7364899162642438,2.4449409729301075,680.9767869415824,715.8454238598653,0.02660000000000018,4.0478,0.025158368448245483,0.0,FM,FM,11.740979085199697,11.545893933223633
+,mp-8641_Rb,,Rb0-3W,Rb,1,0.0,2022-06-28 03:50:00,W1,W,[Element W],1,W,A,['More than one working ion per transition metal'],W,Rb3W,12.363627082861738,-1.9016929624999999,182.63634034284598,604.6013861541393,-347.318243126745,-1149.7662011670716,0.0,0.75,0.47142408000000025,1.5441257418749998,mp-8641,mp-1186876,"Full Formula (W1)
+Reduced Formula: W
+abc   :   2.859018   2.859018   2.859018
+angles:  60.000000  60.000000  60.000000
+pbc   :       True       True       True
+Sites (1)
+  #  SP      a    b    c    magmom
+---  ----  ---  ---  ---  --------
+  0  W       0    0    0        -0","[InsertionVoltagePairDoc(formula_charge='W', formula_discharge='Rb3W', max_delta_volume=12.363627082861738, average_voltage=-1.9016929624999999, capacity_grav=182.63634034284598, capacity_vol=604.6013861541393, energy_grav=-347.318243126745, energy_vol=-1149.7662011670716, fracA_charge=0.0, fracA_discharge=0.75, stability_charge=0.47142408000000025, stability_discharge=1.5441257418749998, id_charge=MPID(mp-8641), id_discharge=MPID(mp-1186876))]","[MPID(mp-8641), MPID(mp-1186876)]","all_formulas=['Rb3W', 'W'] all_chemsys=['Rb-W', 'W'] all_formula_anonymous=['A', 'AB3'] all_elements=[Element Rb, Element W] all_composition_reduced={'W': [1.0], 'Rb': [3.0]}","InsertionElectrode with endpoints at W and Rb3W
+Avg. volt. = -1.9016929624999999 V
+Grav. cap. = 182.63634034284598 mAh/g
+Vol. cap. = 604.6013861541393","['battery_type', 'thermo_type']",19.19484101991006,3.3104111964258633,15.903934900377433,220.83098477376174,0.0,0.0,0.47142784000000404,1.5441266818750004,NM,FM,15.903934900377433,55.207746193440435
+,mp-190_Rb,,Rb0-1ReO3,Rb,1,0.0,2022-06-28 03:50:00,Re1 O3,ReO3,"[Element Re, Element O]",2,O-Re,AB3,[],ReO3,RbReO3,0.15581533794199953,1.3281872674999982,83.84030288877662,703.7681819670174,111.35562280021642,934.7359385602143,0.0,0.2,0.0,0.1466208092352952,mp-190,mp-975216,"Full Formula (Re1 O3)
+Reduced Formula: ReO3
+abc   :   3.796324   3.796324   3.796324
+angles:  90.000000  90.000000  90.000000
+pbc   :       True       True       True
+Sites (4)
+  #  SP      a    b    c    magmom
+---  ----  ---  ---  ---  --------
+  0  Re    0    0    0          -0
+  1  O     0    0.5  0           0
+  2  O     0    0    0.5         0
+  3  O     0.5  0    0           0","[InsertionVoltagePairDoc(formula_charge='ReO3', formula_discharge='RbReO3', max_delta_volume=0.15581533794199953, average_voltage=1.3281872674999982, capacity_grav=83.84030288877662, capacity_vol=703.7681819670174, energy_grav=111.35562280021642, energy_vol=934.7359385602143, fracA_charge=0.0, fracA_discharge=0.2, stability_charge=0.0, stability_discharge=0.1466208092352952, id_charge=MPID(mp-190), id_discharge=MPID(mp-975216))]","[MPID(mp-190), MPID(mp-975216), MPID(mp-20741)]","all_formulas=['ReO3', 'RbReO3'] all_chemsys=['O-Re', 'O-Rb-Re'] all_formula_anonymous=['ABC3', 'AB3'] all_elements=[Element Rb, Element Re, Element O] all_composition_reduced={'Re': [1.0], 'O': [3.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at ReO3 and RbReO3
+Avg. volt. = 1.3281872674999982 V
+Grav. cap. = 83.84030288877662 mAh/g
+Vol. cap. = 703.7681819670174","['battery_type', 'thermo_type']",7.286141387981261,8.394151231269237,213.50498898765895,63.238020189559734,0.0,0.0,0.0,0.14681071042647265,NM,NM,13.344061811728684,12.647604037911947
+,mp-568488_Rb,,Rb0-2Mo15Se19,Rb,1,0.0,2022-06-28 03:50:00,Mo15 Se19,Mo15Se19,"[Element Mo, Element Se]",2,Mo-Se,A15B19,[],Mo15Se19,Rb2Mo15Se19,0.04220876605742352,2.4034715174999866,17.23415194805495,106.2611746199648,41.42179333541698,255.39570661517786,0.0,0.05555555555555555,0.06543868573529377,0.03824326125000255,mp-568488,mp-1195519,"Full Formula (Mo30 Se38)
+Reduced Formula: Mo15Se19
+abc   :  20.578487  20.578487  20.578487
+angles:  27.209182  27.209182  27.209184
+pbc   :       True       True       True
+Sites (68)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Mo    0.75      0.910674  0.589326         0
+  1  Mo    0.997769  0.190116  0.871647        -0
+  2  Mo    0.634395  0.956073  0.776223         0
+  3  Mo    0.628353  0.309884  0.502231        -0
+  4  Mo    0.502231  0.628353  0.309884        -0
+  5  Mo    0.128353  0.002231  0.809884        -0
+  6  Mo    0.371647  0.690116  0.497769        -0
+  7  Mo    0.410674  0.25      0.089326         0
+  8  Mo    0.276223  0.456073  0.134395         0
+  9  Mo    0.002231  0.809884  0.128353        -0
+ 10  Mo    0.223777  0.365605  0.043927         0
+ 11  Mo    0.809884  0.128353  0.002231        -0
+ 12  Mo    0.589326  0.75      0.910674         0
+ 13  Mo    0.25      0.089326  0.410674         0
+ 14  Mo    0.956073  0.776223  0.634395         0
+ 15  Mo    0.190116  0.871647  0.997769        -0
+ 16  Mo    0.309884  0.502231  0.628353        -0
+ 17  Mo    0.089326  0.410674  0.25             0
+ 18  Mo    0.456073  0.134395  0.276223         0
+ 19  Mo    0.134395  0.276223  0.456073         0
+ 20  Mo    0.776223  0.634395  0.956073         0
+ 21  Mo    0.543927  0.865605  0.723777         0
+ 22  Mo    0.723777  0.543927  0.865605         0
+ 23  Mo    0.497769  0.371647  0.690116        -0
+ 24  Mo    0.871647  0.997769  0.190116        -0
+ 25  Mo    0.365605  0.043927  0.223777         0
+ 26  Mo    0.043927  0.223777  0.365605         0
+ 27  Mo    0.910674  0.589326  0.75             0
+ 28  Mo    0.690116  0.497769  0.371647        -0
+ 29  Mo    0.865605  0.723777  0.543927         0
+ 30  Se    0.052949  0.688756  0.306278        -0
+ 31  Se    0.811244  0.447051  0.193722        -0
+ 32  Se    0.552949  0.806278  0.188756        -0
+ 33  Se    0.080486  0.461243  0.813944        -0
+ 34  Se    0.447051  0.193722  0.811244        -0
+ 35  Se    0.188756  0.552949  0.806278        -0
+ 36  Se    0.177174  0.177174  0.177174         0
+ 37  Se    0.688756  0.306278  0.052949        -0
+ 38  Se    0.038757  0.419514  0.686056        -0
+ 39  Se    0.919514  0.538757  0.186056        -0
+ 40  Se    0.419514  0.686056  0.038757         0
+ 41  Se    0.05977   0.75      0.44023         -0
+ 42  Se    0.693722  0.947051  0.311244        -0
+ 43  Se    0.947051  0.311244  0.693722        -0
+ 44  Se    0.677174  0.677174  0.677174         0
+ 45  Se    0.306278  0.052949  0.688756        -0
+ 46  Se    0.538757  0.186056  0.919514        -0
+ 47  Se    0.822826  0.822826  0.822826         0
+ 48  Se    0.44023   0.05977   0.75            -0
+ 49  Se    0.053884  0.053884  0.053884        -0
+ 50  Se    0.193722  0.811244  0.447051        -0
+ 51  Se    0.806278  0.188756  0.552949        -0
+ 52  Se    0.813944  0.080486  0.461243         0
+ 53  Se    0.461243  0.813944  0.080486        -0
+ 54  Se    0.94023   0.25      0.55977         -0
+ 55  Se    0.446116  0.446116  0.446116        -0
+ 56  Se    0.311244  0.693722  0.947051        -0
+ 57  Se    0.25      0.55977   0.94023         -0
+ 58  Se    0.686056  0.038757  0.419514        -0
+ 59  Se    0.75      0.44023   0.05977         -0
+ 60  Se    0.186056  0.919514  0.538757         0
+ 61  Se    0.322826  0.322826  0.322826         0
+ 62  Se    0.580486  0.313944  0.961243         0
+ 63  Se    0.961243  0.580486  0.313944        -0
+ 64  Se    0.553884  0.553884  0.553884        -0
+ 65  Se    0.55977   0.94023   0.25            -0
+ 66  Se    0.313944  0.961243  0.580486         0
+ 67  Se    0.946116  0.946116  0.946116        -0","[InsertionVoltagePairDoc(formula_charge='Mo15Se19', formula_discharge='Rb2Mo15Se19', max_delta_volume=0.04220876605742352, average_voltage=2.4034715174999866, capacity_grav=17.23415194805495, capacity_vol=106.2611746199648, energy_grav=41.42179333541698, energy_vol=255.39570661517786, fracA_charge=0.0, fracA_discharge=0.05555555555555555, stability_charge=0.06543868573529377, stability_discharge=0.03824326125000255, id_charge=MPID(mp-568488), id_discharge=MPID(mp-1195519))]","[MPID(mp-568488), MPID(mp-1195519)]","all_formulas=['Rb2Mo15Se19', 'Mo15Se19'] all_chemsys=['Mo-Se', 'Mo-Rb-Se'] all_formula_anonymous=['A15B19', 'A2B15C19'] all_elements=[Element Rb, Element Mo, Element Se] all_composition_reduced={'Mo': [15.0], 'Se': [19.0], 'Rb': [2.0]}","InsertionElectrode with endpoints at Mo15Se19 and Rb2Mo15Se19
+Avg. volt. = 2.4034715174999866 V
+Grav. cap. = 17.23415194805495 mAh/g
+Vol. cap. = 106.2611746199648","['battery_type', 'thermo_type']",6.072819426029648,6.165732720909186,1607.453987220273,1675.302636514926,0.0,0.0,0.06543983102941198,0.04038958618056476,NM,FM,23.639029223827542,23.268092173818417
+,mp-14530_Rb,,Rb0-1Mo2(PO4)3,Rb,1,0.0,2022-06-28 03:50:00,Mo2 P3 O12,Mo2(PO4)3,"[Element Mo, Element P, Element O]",3,Mo-O-P,A2B3C12,[],Mo2(PO4)3,RbMo2(PO4)3,0.046509261062512186,3.6890079374999862,47.66725579788613,166.8090214870737,175.84488499724415,615.3598043124206,0.0,0.05555555555555555,0.011306454999999715,0.0006721083333403044,mp-25844,mp-14530,"Full Formula (Mo8 P12 O48)
+Reduced Formula: Mo2(PO4)3
+abc   :   8.927356   9.139065  12.499155
+angles:  90.000000  90.000000  90.000000
+pbc   :       True       True       True
+Sites (68)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Mo    0.244843  0.027317  0.398463     1.523
+  1  Mo    0.755157  0.527317  0.398463     1.523
+  2  Mo    0.755157  0.972683  0.601537     1.523
+  3  Mo    0.244843  0.472683  0.601537     1.523
+  4  Mo    0.755157  0.527317  0.101537     1.523
+  5  Mo    0.244843  0.472683  0.898463     1.523
+  6  Mo    0.755157  0.972683  0.898463     1.523
+  7  Mo    0.244843  0.027317  0.101537     1.523
+  8  P     0.600702  0.877389  0.132964     0.006
+  9  P     0.035567  0.75      0.5          0.008
+ 10  P     0.399298  0.377389  0.367036     0.006
+ 11  P     0.035567  0.75      0            0.008
+ 12  P     0.600702  0.877389  0.367036     0.006
+ 13  P     0.964433  0.25      0.5          0.008
+ 14  P     0.600702  0.622611  0.867036     0.006
+ 15  P     0.399298  0.377389  0.132964     0.006
+ 16  P     0.600702  0.622611  0.632964     0.006
+ 17  P     0.399298  0.122611  0.632964     0.006
+ 18  P     0.399298  0.122611  0.867036     0.006
+ 19  P     0.964433  0.25      0            0.008
+ 20  O     0.867906  0.334876  0.080027     0.019
+ 21  O     0.340923  0.426497  0.25        -0.002
+ 22  O     0.937269  0.857733  0.565104     0.005
+ 23  O     0.306253  0.47302   0.056807    -0.011
+ 24  O     0.432964  0.907003  0.371545     0.004
+ 25  O     0.432964  0.592997  0.628455     0.004
+ 26  O     0.340923  0.073503  0.75        -0.002
+ 27  O     0.432964  0.592997  0.871545     0.004
+ 28  O     0.659077  0.573503  0.75        -0.002
+ 29  O     0.371872  0.285118  0.619349     0.016
+ 30  O     0.628128  0.714882  0.380651     0.016
+ 31  O     0.062731  0.357733  0.565104     0.005
+ 32  O     0.203753  0.471693  0.75        -0.205
+ 33  O     0.432964  0.907003  0.128455     0.004
+ 34  O     0.371872  0.214882  0.119349     0.016
+ 35  O     0.867906  0.334876  0.419973     0.019
+ 36  O     0.628128  0.785118  0.619349     0.016
+ 37  O     0.306253  0.02698   0.943193    -0.011
+ 38  O     0.567036  0.407003  0.128455     0.004
+ 39  O     0.867906  0.165124  0.580027     0.019
+ 40  O     0.062731  0.142267  0.065104     0.005
+ 41  O     0.659077  0.926497  0.25        -0.002
+ 42  O     0.937269  0.642267  0.434896     0.005
+ 43  O     0.796247  0.528307  0.25        -0.205
+ 44  O     0.693747  0.52698   0.943193    -0.011
+ 45  O     0.937269  0.857733  0.934896     0.005
+ 46  O     0.693747  0.52698   0.556807    -0.011
+ 47  O     0.567036  0.407003  0.371545     0.004
+ 48  O     0.062731  0.142267  0.434896     0.005
+ 49  O     0.937269  0.642267  0.065104     0.005
+ 50  O     0.306253  0.02698   0.556807    -0.011
+ 51  O     0.628128  0.785118  0.880651     0.016
+ 52  O     0.867906  0.165124  0.919973     0.019
+ 53  O     0.203753  0.028307  0.25        -0.205
+ 54  O     0.132094  0.834876  0.419973     0.019
+ 55  O     0.132094  0.665124  0.580027     0.019
+ 56  O     0.062731  0.357733  0.934896     0.005
+ 57  O     0.567036  0.092997  0.628455     0.004
+ 58  O     0.371872  0.285118  0.880651     0.016
+ 59  O     0.628128  0.714882  0.119349     0.016
+ 60  O     0.693747  0.97302   0.443193    -0.011
+ 61  O     0.132094  0.665124  0.919973     0.019
+ 62  O     0.306253  0.47302   0.443193    -0.011
+ 63  O     0.371872  0.214882  0.380651     0.016
+ 64  O     0.796247  0.971693  0.75        -0.205
+ 65  O     0.693747  0.97302   0.056807    -0.011
+ 66  O     0.567036  0.092997  0.871545     0.004
+ 67  O     0.132094  0.834876  0.080027     0.019","[InsertionVoltagePairDoc(formula_charge='Mo2(PO4)3', formula_discharge='RbMo2(PO4)3', max_delta_volume=0.046509261062512186, average_voltage=3.6890079374999862, capacity_grav=47.66725579788613, capacity_vol=166.8090214870737, energy_grav=175.84488499724415, energy_vol=615.3598043124206, fracA_charge=0.0, fracA_discharge=0.05555555555555555, stability_charge=0.011306454999999715, stability_discharge=0.0006721083333403044, id_charge=MPID(mp-25844), id_discharge=MPID(mp-14530))]","[MPID(mp-25844), MPID(mp-14530)]","all_formulas=['Mo2(PO4)3', 'RbMo2(PO4)3'] all_chemsys=['Mo-O-P', 'Mo-O-P-Rb'] all_formula_anonymous=['A2B3C12', 'AB2C3D12'] all_elements=[Element Rb, Element Mo, Element P, Element O] all_composition_reduced={'Mo': [2.0], 'P': [3.0], 'O': [12.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at Mo2(PO4)3 and RbMo2(PO4)3
+Avg. volt. = 3.6890079374999862 V
+Grav. cap. = 47.66725579788613 mAh/g
+Vol. cap. = 166.8090214870737","['battery_type', 'thermo_type']",3.105522464451125,3.49944670900953,1019.777142931436,1067.206224297617,0.04270000000000018,0.8925999999999998,0.020062963823558988,0.009755042916676615,FiM,FiM,14.996722690168175,14.822308670800235
+,mp-8632_Rb,,Rb0-3V,Rb,1,0.0,2022-06-28 03:50:00,V1,V,[Element V],1,V,A,['More than one working ion per transition metal'],V,Rb3V,15.510963477548838,-1.1510189625000002,261.6098182728644,580.6811464262353,-301.117861608246,-668.375010702836,0.0,0.75,0.24714039999999926,0.925049321875,mp-8632,mp-974743,"Full Formula (V1)
+Reduced Formula: V
+abc   :   2.700503   2.700503   2.700503
+angles:  60.000000  60.000000  60.000000
+pbc   :       True       True       True
+Sites (1)
+  #  SP      a    b    c    magmom
+---  ----  ---  ---  ---  --------
+  0  V       0    0    0    -0.001","[InsertionVoltagePairDoc(formula_charge='V', formula_discharge='Rb3V', max_delta_volume=15.510963477548838, average_voltage=-1.1510189625000002, capacity_grav=261.6098182728644, capacity_vol=580.6811464262353, energy_grav=-301.117861608246, energy_vol=-668.375010702836, fracA_charge=0.0, fracA_discharge=0.75, stability_charge=0.24714039999999926, stability_discharge=0.925049321875, id_charge=MPID(mp-8632), id_discharge=MPID(mp-974743))]","[MPID(mp-8632), MPID(mp-974743)]","all_formulas=['Rb3V', 'V'] all_chemsys=['Rb-V', 'V'] all_formula_anonymous=['A', 'AB3'] all_elements=[Element Rb, Element V] all_composition_reduced={'V': [1.0], 'Rb': [3.0]}","InsertionElectrode with endpoints at V and Rb3V
+Avg. volt. = -1.1510189625000002 V
+Grav. cap. = 261.6098182728644 mAh/g
+Vol. cap. = 580.6811464262353","['battery_type', 'thermo_type']",6.201746052332707,2.2196458453248953,13.639763729020526,229.92776728107626,0.0,0.0,0.24714039999999926,0.925049321875,NM,FM,13.639763729020526,57.481941820269064
+,mp-777879_Rb,,Rb0-1Ni4(PO4)3,Rb,1,0.0,2022-06-28 03:50:00,Ni4 P3 O12,Ni4(PO4)3,"[Element Ni, Element P, Element O]",3,Ni-O-P,A3B4C12,[],Ni4(PO4)3,RbNi4(PO4)3,0.03272399008967364,4.875772587499973,44.28858659535293,180.03433570717195,215.94107646074056,877.8064788497965,0.0,0.05,0.051322082105261124,0.0,mp-777879,mp-1203865,"Full Formula (Ni16 P12 O48)
+Reduced Formula: Ni4(PO4)3
+abc   :   6.138596   9.571696  16.295599
+angles:  90.000000  90.000000  90.000000
+pbc   :       True       True       True
+Sites (76)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Ni    0         0.5335    0.09173      1.833
+  1  Ni    0         0.990563  0.141436     1.794
+  2  Ni    0         0.009437  0.858564     1.794
+  3  Ni    0         0.4665    0.90827      1.833
+  4  Ni    0.751504  0.751518  0.296393    -1.794
+  5  Ni    0.751504  0.248482  0.703607    -1.794
+  6  Ni    0.748496  0.251518  0.203607    -1.795
+  7  Ni    0.748496  0.748482  0.796393    -1.795
+  8  Ni    0.5       0.9665    0.59173      1.834
+  9  Ni    0.5       0.0335    0.40827      1.834
+ 10  Ni    0.5       0.490563  0.358564     1.794
+ 11  Ni    0.5       0.509437  0.641436     1.794
+ 12  Ni    0.251504  0.748482  0.796393    -1.795
+ 13  Ni    0.251504  0.251518  0.203607    -1.795
+ 14  Ni    0.248496  0.751518  0.296393    -1.794
+ 15  Ni    0.248496  0.248482  0.703607    -1.794
+ 16  P     0         0.206473  0.035865     0.02
+ 17  P     0         0.043355  0.339149     0.002
+ 18  P     0         0.453735  0.281734     0.003
+ 19  P     0         0.546265  0.718266     0.003
+ 20  P     0         0.956645  0.660851     0.002
+ 21  P     0         0.793527  0.964135     0.02
+ 22  P     0.5       0.953735  0.218266     0.003
+ 23  P     0.5       0.293527  0.535865     0.02
+ 24  P     0.5       0.543355  0.160851     0.002
+ 25  P     0.5       0.706473  0.464135     0.02
+ 26  P     0.5       0.046265  0.781734     0.003
+ 27  P     0.5       0.456645  0.839149     0.002
+ 28  O     0         0.366192  0.019712    -0.01
+ 29  O     0         0.115535  0.249045    -0.007
+ 30  O     0         0.393578  0.188875    -0.039
+ 31  O     0         0.864973  0.046489    -0.156
+ 32  O     0         0.61506   0.275299    -0.051
+ 33  O     0         0.118497  0.672434    -0.056
+ 34  O     0         0.881503  0.327566    -0.056
+ 35  O     0         0.38494   0.724701    -0.051
+ 36  O     0         0.135027  0.953511    -0.156
+ 37  O     0         0.606422  0.811125    -0.039
+ 38  O     0         0.884465  0.750955    -0.007
+ 39  O     0         0.633808  0.980288    -0.01
+ 40  O     0.796252  0.090839  0.38429      0.064
+ 41  O     0.796252  0.909161  0.61571      0.063
+ 42  O     0.801903  0.15979   0.090829    -0.068
+ 43  O     0.801903  0.84021   0.909171    -0.067
+ 44  O     0.786003  0.392211  0.315422    -0.005
+ 45  O     0.786003  0.607789  0.684578    -0.005
+ 46  O     0.713997  0.892211  0.184578    -0.003
+ 47  O     0.713997  0.107789  0.815422    -0.003
+ 48  O     0.698097  0.34021   0.590829    -0.067
+ 49  O     0.698097  0.65979   0.409171    -0.066
+ 50  O     0.703748  0.409161  0.88429      0.064
+ 51  O     0.703748  0.590839  0.11571      0.063
+ 52  O     0.5       0.381503  0.172434    -0.057
+ 53  O     0.5       0.364973  0.453511    -0.154
+ 54  O     0.5       0.133808  0.519712    -0.009
+ 55  O     0.5       0.11506   0.224701    -0.051
+ 56  O     0.5       0.866192  0.480288    -0.009
+ 57  O     0.5       0.635027  0.546489    -0.154
+ 58  O     0.5       0.88494   0.775299    -0.051
+ 59  O     0.5       0.615535  0.250955    -0.007
+ 60  O     0.5       0.893578  0.311125    -0.036
+ 61  O     0.5       0.106422  0.688875    -0.036
+ 62  O     0.5       0.384465  0.749045    -0.007
+ 63  O     0.5       0.618497  0.827566    -0.057
+ 64  O     0.296252  0.590839  0.11571      0.064
+ 65  O     0.296252  0.409161  0.88429      0.063
+ 66  O     0.301903  0.65979   0.409171    -0.067
+ 67  O     0.301903  0.34021   0.590829    -0.066
+ 68  O     0.286003  0.892211  0.184578    -0.003
+ 69  O     0.286003  0.107789  0.815422    -0.003
+ 70  O     0.213997  0.607789  0.684578    -0.005
+ 71  O     0.213997  0.392211  0.315422    -0.005
+ 72  O     0.198097  0.15979   0.090829    -0.067
+ 73  O     0.198097  0.84021   0.909171    -0.068
+ 74  O     0.203748  0.090839  0.38429      0.063
+ 75  O     0.203748  0.909161  0.61571      0.064","[InsertionVoltagePairDoc(formula_charge='Ni4(PO4)3', formula_discharge='RbNi4(PO4)3', max_delta_volume=0.03272399008967364, average_voltage=4.875772587499973, capacity_grav=44.28858659535293, capacity_vol=180.03433570717195, energy_grav=215.94107646074056, energy_vol=877.8064788497965, fracA_charge=0.0, fracA_discharge=0.05, stability_charge=0.051322082105261124, stability_discharge=0.0, id_charge=MPID(mp-777879), id_discharge=MPID(mp-1203865))]","[MPID(mp-777879), MPID(mp-1203865)]","all_formulas=['Ni4(PO4)3', 'RbNi4(PO4)3'] all_chemsys=['Ni-O-P', 'Ni-O-P-Rb'] all_formula_anonymous=['A3B4C12', 'AB3C4D12'] all_elements=[Element Rb, Element Ni, Element P, Element O] all_composition_reduced={'Ni': [4.0], 'P': [3.0], 'O': [12.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at Ni4(PO4)3 and RbNi4(PO4)3
+Avg. volt. = 4.875772587499973 V
+Grav. cap. = 44.28858659535293 mAh/g
+Vol. cap. = 180.03433570717195","['battery_type', 'thermo_type']",3.6051491532161597,4.0650277980161675,957.4768403288991,988.8093029629141,0.0,3.8278,0.05210359539473064,0.0,FiM,FM,12.59837947801183,12.360116287036426
+,mp-1113821_Rb,,Rb2-3VF6,Rb,1,0.0,2022-06-28 03:50:00,V1 F6,VF6,"[Element V, Element F]",2,F-V,AB6,['More than one working ion per transition metal'],Rb2VF6,Rb3VF6,0.20831618815287611,2.7366343675000016,63.61081049709419,225.38689793947518,174.07953015087782,616.801530885383,0.2222222222222222,0.3,0.0,0.0,mp-1209267,mp-1113821,"Full Formula (V1 F6)
+Reduced Formula: VF6
+abc   :   6.136742   6.136742   6.136742
+angles:  60.000000  60.000000  60.000000
+pbc   :       True       True       True
+Sites (7)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  V     0         0         0            1.082
+  1  F     0.783238  0.216762  0.216762    -0.02
+  2  F     0.216762  0.783238  0.783238    -0.02
+  3  F     0.216762  0.783238  0.216762    -0.02
+  4  F     0.783238  0.216762  0.783238    -0.02
+  5  F     0.216762  0.216762  0.783238    -0.02
+  6  F     0.783238  0.783238  0.216762    -0.02","[InsertionVoltagePairDoc(formula_charge='Rb2VF6', formula_discharge='Rb3VF6', max_delta_volume=0.20831618815287611, average_voltage=2.7366343675000016, capacity_grav=63.61081049709419, capacity_vol=225.38689793947518, energy_grav=174.07953015087782, energy_vol=616.801530885383, fracA_charge=0.2222222222222222, fracA_discharge=0.3, stability_charge=0.0, stability_discharge=0.0, id_charge=MPID(mp-1209267), id_discharge=MPID(mp-1113821))]","[MPID(mp-1209267), MPID(mp-1113821)]","all_formulas=['Rb3VF6', 'Rb2VF6'] all_chemsys=['F-Rb-V'] all_formula_anonymous=['AB3C6', 'AB2C6'] all_elements=[Element Rb, Element V, Element F] all_composition_reduced={'Rb': [2.0, 3.0], 'V': [1.0], 'F': [6.0]}","InsertionElectrode with endpoints at Rb2VF6 and Rb3VF6
+Avg. volt. = 2.7366343675000016 V
+Grav. cap. = 63.61081049709419 mAh/g
+Vol. cap. = 225.38689793947518","['battery_type', 'thermo_type']",3.661310442313542,3.7433647276930273,152.3282839903648,186.9023748859117,0.0,0.0,0.0,0.0,FM,FM,16.92536488781831,18.690237488591173
+,mp-8637_Rb,,Rb0-3Mo,Rb,1,0.0,2022-06-28 03:50:00,Mo1,Mo,[Element Mo],1,Mo,A,['More than one working ion per transition metal'],Mo,Rb3Mo,13.477522794917796,-1.4691340858333333,228.19909053523264,571.2374279387973,-335.25506226147706,-839.2243764886496,0.0,0.75,0.41146009999999933,1.2047155893749997,mp-8637,mp-974933,"Full Formula (Mo1)
+Reduced Formula: Mo
+abc   :   2.836903   2.836903   2.836903
+angles:  60.000000  60.000000  60.000000
+pbc   :       True       True       True
+Sites (1)
+  #  SP      a    b    c    magmom
+---  ----  ---  ---  ---  --------
+  0  Mo      0    0    0     0.001","[InsertionVoltagePairDoc(formula_charge='Mo', formula_discharge='Rb3Mo', max_delta_volume=13.477522794917796, average_voltage=-1.4691340858333333, capacity_grav=228.19909053523264, capacity_vol=571.2374279387973, energy_grav=-335.25506226147706, energy_vol=-839.2243764886496, fracA_charge=0.0, fracA_discharge=0.75, stability_charge=0.41146009999999933, stability_discharge=1.2047155893749997, id_charge=MPID(mp-8637), id_discharge=MPID(mp-974933))]","[MPID(mp-8637), MPID(mp-974933)]","all_formulas=['Rb3Mo', 'Mo'] all_chemsys=['Mo', 'Mo-Rb'] all_formula_anonymous=['A', 'AB3'] all_elements=[Element Rb, Element Mo] all_composition_reduced={'Mo': [1.0], 'Rb': [3.0]}","InsertionElectrode with endpoints at Mo and Rb3Mo
+Avg. volt. = -1.4691340858333333 V
+Grav. cap. = 228.19909053523264 mAh/g
+Vol. cap. = 571.2374279387973","['battery_type', 'thermo_type']",10.126615765518414,2.5032414739321416,15.732019634048816,233.72894171476597,0.0,0.0,0.41146717999999893,1.2047173593749996,NM,FM,15.732019634048816,58.43223542869149
+,mp-8642_Rb,,Rb0-3Re,Rb,1,0.0,2022-06-28 03:50:00,Re1,Re,[Element Re],1,Re,A,['More than one working ion per transition metal'],Re,Rb3Re,12.281087516272239,-2.055517829166667,181.65963437843232,665.0471715020434,-373.4046173047656,-1367.0163182593124,0.0,0.75,0.06275675500000055,1.557327560625,mp-8642,mp-1186857,"Full Formula (Re1)
+Reduced Formula: Re
+abc   :   2.775360   2.775360   2.775360
+angles:  60.000000  60.000000  60.000000
+pbc   :       True       True       True
+Sites (1)
+  #  SP      a    b    c    magmom
+---  ----  ---  ---  ---  --------
+  0  Re      0    0    0         0","[InsertionVoltagePairDoc(formula_charge='Re', formula_discharge='Rb3Re', max_delta_volume=12.281087516272239, average_voltage=-2.055517829166667, capacity_grav=181.65963437843232, capacity_vol=665.0471715020434, energy_grav=-373.4046173047656, energy_vol=-1367.0163182593124, fracA_charge=0.0, fracA_discharge=0.75, stability_charge=0.06275675500000055, stability_discharge=1.557327560625, id_charge=MPID(mp-8642), id_discharge=MPID(mp-1186857))]","[MPID(mp-8642), MPID(mp-1186857)]","all_formulas=['Re', 'Rb3Re'] all_chemsys=['Rb-Re', 'Re'] all_formula_anonymous=['A', 'AB3'] all_elements=[Element Rb, Element Re] all_composition_reduced={'Re': [1.0], 'Rb': [3.0]}","InsertionElectrode with endpoints at Re and Rb3Re
+Avg. volt. = -2.055517829166667 V
+Grav. cap. = 181.65963437843232 mAh/g
+Vol. cap. = 665.0471715020434","['battery_type', 'thermo_type']",20.799270145231553,3.6609518319672207,14.866098464771099,200.759773473587,0.0,0.0,0.06841918750000531,1.5582243162499996,NM,FM,14.866098464771099,50.18994336839675
+,mp-25302_Rb,,Rb0-1CrO2,Rb,1,0.0,2022-06-28 03:50:00,Cr1 O2,CrO2,"[Element Cr, Element O]",2,Cr-O,AB2,[],CrO2,RbCrO2,0.5710226848817315,2.4107407575,158.15563628671026,810.3077287776961,381.2722384247184,1953.4418678816478,0.0,0.25,0.18456060166665011,0.0,mp-714929,mp-771648,"Full Formula (Cr2 O4)
+Reduced Formula: CrO2
+abc   :   2.985756   9.436803   2.906571
+angles:  89.736098 119.767199  99.148460
+pbc   :       True       True       True
+Sites (6)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Cr    0.493341  0.746433  0.235911     2.17
+  1  Cr    0.514961  0.253063  0.758609     2.181
+  2  O     0.777618  0.150543  0.380887    -0.093
+  3  O     0.75272   0.643485  0.871952    -0.089
+  4  O     0.251312  0.355556  0.134249    -0.093
+  5  O     0.233787  0.84951   0.601903    -0.089","[InsertionVoltagePairDoc(formula_charge='CrO2', formula_discharge='RbCrO2', max_delta_volume=0.5710226848817315, average_voltage=2.4107407575, capacity_grav=158.15563628671026, capacity_vol=810.3077287776961, energy_grav=381.2722384247184, energy_vol=1953.4418678816478, fracA_charge=0.0, fracA_discharge=0.25, stability_charge=0.18456060166665011, stability_discharge=0.0, id_charge=MPID(mp-714929), id_discharge=MPID(mp-771648))]","[MPID(mp-714929), MPID(mp-771648), MPID(mp-25302)]","all_formulas=['CrO2', 'RbCrO2'] all_chemsys=['Cr-O', 'Cr-O-Rb'] all_formula_anonymous=['ABC2', 'AB2'] all_elements=[Element Rb, Element Cr, Element O] all_composition_reduced={'Cr': [1.0], 'O': [2.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at CrO2 and RbCrO2
+Avg. volt. = 2.4107407575 V
+Grav. cap. = 158.15563628671026 mAh/g
+Vol. cap. = 810.3077287776961","['battery_type', 'thermo_type']",3.9895743152763523,5.393561742091892,69.92064908333407,52.17321079045904,0.0,2.4595,0.18456060166663413,0.0,FM,FM,11.653441513889012,13.04330269761476
+,mp-9227_Rb,,Rb0-0.5Ti3Se4,Rb,1,0.0,2022-06-28 03:50:00,Ti3 Se4,Ti3Se4,"[Element Ti, Element Se]",2,Se-Ti,A3B4,[],Ti3Se4,Rb(Ti3Se4)2,0.015784573142261893,1.2921998174999978,26.68540497082181,143.65354278533954,34.48287543320948,185.6290817704439,0.0,0.06666666666666667,0.0,0.0,mp-9227,mp-1219673,"Full Formula (Ti6 Se8)
+Reduced Formula: Ti3Se4
+abc   :   9.940109   9.940109   3.564323
+angles:  90.000000  90.000000 120.000006
+pbc   :       True       True       True
+Sites (14)
+  #  SP           a         b     c    magmom
+---  ----  --------  --------  ----  --------
+  0  Ti    0.51075   0.640499  0.75        -0
+  1  Ti    0.870252  0.51075   0.25        -0
+  2  Ti    0.640499  0.129748  0.25        -0
+  3  Ti    0.359501  0.870252  0.75        -0
+  4  Ti    0.129748  0.48925   0.75        -0
+  5  Ti    0.48925   0.359501  0.25        -0
+  6  Se    0.648569  0.949403  0.75         0
+  7  Se    0.699165  0.648569  0.25         0
+  8  Se    0.949403  0.300835  0.25         0
+  9  Se    0.050597  0.699165  0.75         0
+ 10  Se    0.300835  0.351431  0.75         0
+ 11  Se    0.351431  0.050597  0.25         0
+ 12  Se    0.333333  0.666667  0.25         0
+ 13  Se    0.666667  0.333333  0.75         0","[InsertionVoltagePairDoc(formula_charge='Ti3Se4', formula_discharge='Rb(Ti3Se4)2', max_delta_volume=0.015784573142261893, average_voltage=1.2921998174999978, capacity_grav=26.68540497082181, capacity_vol=143.65354278533954, energy_grav=34.48287543320948, energy_vol=185.6290817704439, fracA_charge=0.0, fracA_discharge=0.06666666666666667, stability_charge=0.0, stability_discharge=0.0, id_charge=MPID(mp-9227), id_discharge=MPID(mp-1219673))]","[MPID(mp-9227), MPID(mp-1219673)]","all_formulas=['Rb(Ti3Se4)2', 'Ti3Se4'] all_chemsys=['Se-Ti', 'Rb-Se-Ti'] all_formula_anonymous=['A3B4', 'AB6C8'] all_elements=[Element Rb, Element Ti, Element Se] all_composition_reduced={'Ti': [3.0, 6.0], 'Se': [8.0, 4.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at Ti3Se4 and Rb(Ti3Se4)2
+Avg. volt. = 1.2921998174999978 V
+Grav. cap. = 26.68540497082181 mAh/g
+Vol. cap. = 143.65354278533954","['battery_type', 'thermo_type']",5.025391151799588,5.320226794911292,303.6260089026382,313.4757490088736,0.0,0.0,0.0,0.0,NM,FiM,21.687572064474157,20.89838326725824
+,mp-24688_Rb,,Rb0-2NiH12(SO7)2,Rb,1,0.0,2022-06-28 03:50:00,Ni1 H12 S2 O14,NiH12(SO7)2,"[Element Ni, Element H, Element S, Element O]",4,H-Ni-O-S,AB2C12D14,['More than one working ion per transition metal'],NiH12(SO7)2,Rb2NiH12(SO7)2,0.05438858888171261,5.146580727500001,101.16708332379177,255.69985052311284,520.6645612916135,1315.9799227268836,0.0,0.06451612903225806,0.0514001446551724,0.0,mp-1101430,mp-24688,"Full Formula (Ni2 H24 S4 O28)
+Reduced Formula: NiH12(SO7)2
+abc   :   9.359578  12.656858   6.429332
+angles:  90.000000 105.462084  90.000000
+pbc   :       True       True       True
+Sites (58)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Ni    0         0         0            1.826
+  1  Ni    0.5       0.5       0            1.826
+  2  H     0.136009  0.814916  0.990159     0.001
+  3  H     0.028178  0.861612  0.32989      0
+  4  H     0.096262  0.056223  0.662282     0
+  5  H     0.238657  0.400363  0.939511     0
+  6  H     0.253962  0.624005  0.907973     0.001
+  7  H     0.214572  0.088758  0.311486     0.001
+  8  H     0.285428  0.588758  0.688514     0.001
+  9  H     0.246038  0.124005  0.092027     0.001
+ 10  H     0.261343  0.900362  0.060489     0
+ 11  H     0.403738  0.556223  0.337718     0
+ 12  H     0.471822  0.361612  0.67011      0
+ 13  H     0.363991  0.314916  0.009841     0.001
+ 14  H     0.636009  0.685084  0.990159     0.001
+ 15  H     0.528178  0.638388  0.32989      0
+ 16  H     0.596262  0.443777  0.662282     0
+ 17  H     0.738657  0.099638  0.939511     0
+ 18  H     0.753962  0.875995  0.907973     0.001
+ 19  H     0.714572  0.411243  0.311486     0.001
+ 20  H     0.785428  0.911242  0.688514     0.001
+ 21  H     0.746038  0.375995  0.092027     0.001
+ 22  H     0.761343  0.599638  0.060489     0
+ 23  H     0.903738  0.943777  0.337718     0
+ 24  H     0.971822  0.138388  0.67011      0
+ 25  H     0.863991  0.185084  0.009841     0.001
+ 26  S     0.095699  0.633992  0.27032     -0.021
+ 27  S     0.404301  0.133992  0.72968     -0.021
+ 28  S     0.595699  0.866008  0.27032     -0.021
+ 29  S     0.904301  0.366008  0.72968     -0.021
+ 30  O     0.051477  0.418802  0.752728     0.361
+ 31  O     0.99597   0.934863  0.293667     0.027
+ 32  O     0.15887   0.889626  0.973098     0.027
+ 33  O     0.080052  0.724995  0.414159     0.369
+ 34  O     0.112756  0.671176  0.061337     0.046
+ 35  O     0.167088  0.103789  0.158702     0.027
+ 36  O     0.217725  0.564834  0.384824     0.08
+ 37  O     0.282275  0.064834  0.615176     0.08
+ 38  O     0.332912  0.603789  0.841298     0.027
+ 39  O     0.387244  0.171176  0.938663     0.046
+ 40  O     0.419948  0.224995  0.585841     0.369
+ 41  O     0.34113   0.389626  0.026902     0.027
+ 42  O     0.50403   0.434863  0.706333     0.027
+ 43  O     0.448523  0.918802  0.247272     0.361
+ 44  O     0.551477  0.081198  0.752728     0.361
+ 45  O     0.49597   0.565137  0.293667     0.027
+ 46  O     0.65887   0.610374  0.973098     0.027
+ 47  O     0.580052  0.775005  0.414159     0.369
+ 48  O     0.612756  0.828824  0.061337     0.046
+ 49  O     0.667088  0.396211  0.158702     0.027
+ 50  O     0.717725  0.935166  0.384824     0.08
+ 51  O     0.782275  0.435166  0.615176     0.08
+ 52  O     0.832912  0.896211  0.841298     0.027
+ 53  O     0.887244  0.328824  0.938663     0.046
+ 54  O     0.919948  0.275005  0.585841     0.369
+ 55  O     0.84113   0.110374  0.026902     0.027
+ 56  O     0.00403   0.065137  0.706333     0.027
+ 57  O     0.948523  0.581198  0.247272     0.361","[InsertionVoltagePairDoc(formula_charge='NiH12(SO7)2', formula_discharge='Rb2NiH12(SO7)2', max_delta_volume=0.05438858888171261, average_voltage=5.146580727500001, capacity_grav=101.16708332379177, capacity_vol=255.69985052311284, energy_grav=520.6645612916135, energy_vol=1315.9799227268836, fracA_charge=0.0, fracA_discharge=0.06451612903225806, stability_charge=0.0514001446551724, stability_discharge=0.0, id_charge=MPID(mp-1101430), id_discharge=MPID(mp-24688))]","[MPID(mp-1101430), MPID(mp-24688)]","all_formulas=['NiH12(SO7)2', 'Rb2NiH12(SO7)2'] all_chemsys=['H-Ni-O-S', 'H-Ni-O-Rb-S'] all_formula_anonymous=['AB2C2D12E14', 'AB2C12D14'] all_elements=[Element Rb, Element Ni, Element H, Element S, Element O] all_composition_reduced={'Ni': [1.0], 'H': [12.0], 'S': [2.0], 'O': [14.0], 'Rb': [2.0]}","InsertionElectrode with endpoints at NiH12(SO7)2 and Rb2NiH12(SO7)2
+Avg. volt. = 5.146580727500001 V
+Grav. cap. = 101.16708332379177 mAh/g
+Vol. cap. = 255.69985052311284","['battery_type', 'thermo_type']",1.6237788619458,2.52750046787812,734.0710675715619,696.2054363184257,0.23349999999999982,4.6009,0.05154851422413831,0.0,FM,FM,12.656397716751068,11.22911994061977
+,mp-12627_Rb,,Rb0-0.5Nb3S4,Rb,1,0.0,2022-06-28 03:50:00,Nb3 S4,Nb3S4,"[Element Nb, Element S]",2,Nb-S,A3B4,[],Nb3S4,Rb(Nb3S4)2,0.020759340891600475,1.5431477775000026,29.79842561977288,158.02532141230793,45.98337426815166,243.85642352612658,0.0,0.06666666666666667,0.0,0.0,mp-12627,mp-1219680,"Full Formula (Nb6 S8)
+Reduced Formula: Nb3S4
+abc   :   9.667832   9.667832   3.408545
+angles:  90.000000  90.000000 119.999999
+pbc   :       True       True       True
+Sites (14)
+  #  SP           a         b     c    magmom
+---  ----  --------  --------  ----  --------
+  0  Nb    0.513885  0.885059  0.75     0.018
+  1  Nb    0.628826  0.513885  0.25     0.013
+  2  Nb    0.885059  0.371174  0.25     0.015
+  3  Nb    0.114941  0.628826  0.75     0.015
+  4  Nb    0.371174  0.486115  0.75     0.013
+  5  Nb    0.486115  0.114941  0.25     0.018
+  6  S     0.653733  0.71074   0.75     0
+  7  S     0.942993  0.653733  0.25     0.001
+  8  S     0.71074   0.057007  0.25     0.001
+  9  S     0.28926   0.942993  0.75     0.001
+ 10  S     0.057007  0.346267  0.75     0.001
+ 11  S     0.346267  0.28926   0.25     0
+ 12  S     0.333333  0.666667  0.25     0.001
+ 13  S     0.666667  0.333333  0.75     0.001","[InsertionVoltagePairDoc(formula_charge='Nb3S4', formula_discharge='Rb(Nb3S4)2', max_delta_volume=0.020759340891600475, average_voltage=1.5431477775000026, capacity_grav=29.79842561977288, capacity_vol=158.02532141230793, energy_grav=45.98337426815166, energy_vol=243.85642352612658, fracA_charge=0.0, fracA_discharge=0.06666666666666667, stability_charge=0.0, stability_discharge=0.0, id_charge=MPID(mp-12627), id_discharge=MPID(mp-1219680))]","[MPID(mp-12627), MPID(mp-1219680)]","all_formulas=['Nb3S4', 'Rb(Nb3S4)2'] all_chemsys=['Nb-Rb-S', 'Nb-S'] all_formula_anonymous=['A3B4', 'AB6C8'] all_elements=[Element Rb, Element Nb, Element S] all_composition_reduced={'Nb': [3.0, 6.0], 'S': [8.0, 4.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at Nb3S4 and Rb(Nb3S4)2
+Avg. volt. = 1.5431477775000026 V
+Grav. cap. = 29.79842561977288 mAh/g
+Vol. cap. = 158.02532141230793","['battery_type', 'thermo_type']",4.889994234425116,5.277660638301893,276.40309123624985,282.9913186383743,0.0,0.3814000000000002,0.0,0.0,NM,NM,19.74307794544642,18.866087909224955
+,mp-8634_Rb,,Rb0-3Mn,Rb,1,0.0,2022-06-28 03:50:00,Mn1,Mn,[Element Mn],1,Mn,A,['More than one working ion per transition metal'],Mn,Rb3Mn,20.696536150461615,-0.8831153025000005,258.25165498313817,569.4538578942053,-228.06598841155983,-502.89341597403336,0.0,0.75,0.08309805206896392,0.6831109898922412,mp-8634,mp-1186859,"Full Formula (Mn1)
+Reduced Formula: Mn
+abc   :   2.481600   2.481600   2.481600
+angles:  60.000000  60.000000  60.000000
+pbc   :       True       True       True
+Sites (1)
+  #  SP      a    b    c    magmom
+---  ----  ---  ---  ---  --------
+  0  Mn      0    0    0     0.016","[InsertionVoltagePairDoc(formula_charge='Mn', formula_discharge='Rb3Mn', max_delta_volume=20.696536150461615, average_voltage=-0.8831153025000005, capacity_grav=258.25165498313817, capacity_vol=569.4538578942053, energy_grav=-228.06598841155983, energy_vol=-502.89341597403336, fracA_charge=0.0, fracA_discharge=0.75, stability_charge=0.08309805206896392, stability_discharge=0.6831109898922412, id_charge=MPID(mp-8634), id_discharge=MPID(mp-1186859))]","[MPID(mp-8634), MPID(mp-1186859)]","all_formulas=['Rb3Mn', 'Mn'] all_chemsys=['Mn-Rb', 'Mn'] all_formula_anonymous=['A', 'AB3'] all_elements=[Element Rb, Element Mn] all_composition_reduced={'Mn': [1.0], 'Rb': [3.0]}","InsertionElectrode with endpoints at Mn and Rb3Mn
+Avg. volt. = -0.8831153025000005 V
+Grav. cap. = 258.25165498313817 mAh/g
+Vol. cap. = 569.4538578942053","['battery_type', 'thermo_type']",8.735489383934738,2.205034688875837,10.44323517041897,234.46099740851125,0.0,0.0,0.4205954355172423,0.6831109898922412,NM,FM,10.44323517041897,58.61524935212781
+,mp-561_Rb,,Rb0-0.5Nb3Se4,Rb,1,0.0,2022-06-28 03:50:00,Nb3 Se4,Nb3Se4,"[Element Nb, Element Se]",2,Nb-Se,A3B4,[],Nb3Se4,Rb(Nb3Se4)2,0.026470749551884998,1.339372817500013,21.027595990506885,138.86095861384746,28.163790487057184,185.98659337938156,0.0,0.06666666666666667,0.0,0.0,mp-561,mp-1219672,"Full Formula (Nb6 Se8)
+Reduced Formula: Nb3Se4
+abc   :  10.173810  10.173810   3.483239
+angles:  90.000000  90.000000 120.000000
+pbc   :       True       True       True
+Sites (14)
+  #  SP           a         b     c    magmom
+---  ----  --------  --------  ----  --------
+  0  Nb    0.512656  0.892349  0.75        -0
+  1  Nb    0.620307  0.512656  0.25        -0
+  2  Nb    0.892349  0.379693  0.25        -0
+  3  Nb    0.107651  0.620307  0.75        -0
+  4  Nb    0.379693  0.487344  0.75        -0
+  5  Nb    0.487344  0.107651  0.25        -0
+  6  Se    0.657847  0.719383  0.75         0
+  7  Se    0.938465  0.657847  0.25         0
+  8  Se    0.719383  0.061535  0.25         0
+  9  Se    0.280617  0.938465  0.75         0
+ 10  Se    0.061535  0.342153  0.75         0
+ 11  Se    0.342153  0.280617  0.25         0
+ 12  Se    0.666667  0.333333  0.75        -0
+ 13  Se    0.333333  0.666667  0.25        -0","[InsertionVoltagePairDoc(formula_charge='Nb3Se4', formula_discharge='Rb(Nb3Se4)2', max_delta_volume=0.026470749551884998, average_voltage=1.339372817500013, capacity_grav=21.027595990506885, capacity_vol=138.86095861384746, energy_grav=28.163790487057184, energy_vol=185.98659337938156, fracA_charge=0.0, fracA_discharge=0.06666666666666667, stability_charge=0.0, stability_discharge=0.0, id_charge=MPID(mp-561), id_discharge=MPID(mp-1219672))]","[MPID(mp-561), MPID(mp-1219672)]","all_formulas=['Rb(Nb3Se4)2', 'Nb3Se4'] all_chemsys=['Nb-Se', 'Nb-Rb-Se'] all_formula_anonymous=['A3B4', 'AB6C8'] all_elements=[Element Rb, Element Nb, Element Se] all_composition_reduced={'Nb': [3.0, 6.0], 'Se': [8.0, 4.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at Nb3Se4 and Rb(Nb3Se4)2
+Avg. volt. = 1.339372817500013 V
+Grav. cap. = 21.027595990506885 mAh/g
+Vol. cap. = 138.86095861384746","['battery_type', 'thermo_type']",6.33261733403146,6.623518471447438,311.81062341108566,319.5431534928646,0.0,0.3993000000000002,0.0,0.0,NM,NM,22.27218738650612,21.302876899524303
+,mp-16318_Rb,,Rb0-1TiS2,Rb,1,0.0,2022-06-28 03:50:00,Ti1 S2,TiS2,"[Element Ti, Element S]",2,S-Ti,AB2,[],TiS2,RbTiS2,0.037245019877563346,1.2863254475000006,135.72789249204865,494.9410512161483,174.59024204806644,636.6552691917327,0.0,0.25,0.0095215099999999,0.0,mp-558110,mp-16318,"Full Formula (Ti1 S2)
+Reduced Formula: TiS2
+abc   :   8.832789   8.832789   8.832789
+angles:  22.256784  22.256784  22.256788
+pbc   :       True       True       True
+Sites (3)
+  #  SP          a        b        c    magmom
+---  ----  -------  -------  -------  --------
+  0  Ti    0        0        0               0
+  1  S     0.38851  0.38851  0.38851        -0
+  2  S     0.61149  0.61149  0.61149        -0","[InsertionVoltagePairDoc(formula_charge='TiS2', formula_discharge='RbTiS2', max_delta_volume=0.037245019877563346, average_voltage=1.2863254475000006, capacity_grav=135.72789249204865, capacity_vol=494.9410512161483, energy_grav=174.59024204806644, energy_vol=636.6552691917327, fracA_charge=0.0, fracA_discharge=0.25, stability_charge=0.0095215099999999, stability_discharge=0.0, id_charge=MPID(mp-558110), id_discharge=MPID(mp-16318))]","[MPID(mp-558110), MPID(mp-16318)]","all_formulas=['RbTiS2', 'TiS2'] all_chemsys=['Rb-S-Ti', 'S-Ti'] all_formula_anonymous=['ABC2', 'AB2'] all_elements=[Element Rb, Element Ti, Element S] all_composition_reduced={'Ti': [1.0], 'S': [2.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at TiS2 and RbTiS2
+Avg. volt. = 1.2863254475000006 V
+Grav. cap. = 135.72789249204865 mAh/g
+Vol. cap. = 494.9410512161483","['battery_type', 'thermo_type']",2.149604426677374,3.684130763516189,86.51610107142402,89.00281660073458,0.0,0.0,0.0019210499999999797,0.0,NM,FM,28.838700357141338,22.250704150183644
+,mp-799_Rb,,Rb0-0.5V3S4,Rb,1,0.0,2022-06-28 03:50:00,V3 S4,V3S4,"[Element V, Element S]",2,S-V,A3B4,[],V3S4,Rb(V3S4)2,0.03937503569236345,1.1599203375000038,41.383505608952255,183.96233053437953,48.0015697928692,213.38164852072475,0.0,0.06666666666666667,0.0,0.0,mp-799,mp-1219696,"Full Formula (V6 S8)
+Reduced Formula: V3S4
+abc   :   9.085174   9.085174   3.256189
+angles:  90.000000  90.000000 119.999997
+pbc   :       True       True       True
+Sites (14)
+  #  SP           a         b     c    magmom
+---  ----  --------  --------  ----  --------
+  0  V     0.510734  0.880719  0.75         0
+  1  V     0.630016  0.510734  0.25         0
+  2  V     0.880719  0.369984  0.25         0
+  3  V     0.119281  0.630016  0.75         0
+  4  V     0.369984  0.489266  0.75         0
+  5  V     0.489266  0.119281  0.25         0
+  6  S     0.666667  0.333333  0.75         0
+  7  S     0.333333  0.666667  0.25         0
+  8  S     0.653469  0.704859  0.75         0
+  9  S     0.94861   0.653469  0.25         0
+ 10  S     0.704859  0.05139   0.25         0
+ 11  S     0.295141  0.94861   0.75         0
+ 12  S     0.346531  0.295141  0.25         0
+ 13  S     0.05139   0.346531  0.75         0","[InsertionVoltagePairDoc(formula_charge='V3S4', formula_discharge='Rb(V3S4)2', max_delta_volume=0.03937503569236345, average_voltage=1.1599203375000038, capacity_grav=41.383505608952255, capacity_vol=183.96233053437953, energy_grav=48.0015697928692, energy_vol=213.38164852072475, fracA_charge=0.0, fracA_discharge=0.06666666666666667, stability_charge=0.0, stability_discharge=0.0, id_charge=MPID(mp-799), id_discharge=MPID(mp-1219696))]","[MPID(mp-799), MPID(mp-1219696)]","all_formulas=['Rb(V3S4)2', 'V3S4'] all_chemsys=['S-V', 'Rb-S-V'] all_formula_anonymous=['A3B4', 'AB6C8'] all_elements=[Element Rb, Element V, Element S] all_composition_reduced={'V': [3.0, 6.0], 'S': [8.0, 4.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at V3S4 and Rb(V3S4)2
+Avg. volt. = 1.1599203375000038 V
+Grav. cap. = 41.383505608952255 mAh/g
+Vol. cap. = 183.96233053437953","['battery_type', 'thermo_type']",4.029684720166832,,231.65673032921728,,0.0,,0.05696985785713515,,NM,,16.546909309229807,
+,mp-1076360_Rb,,Rb0-1CrO3,Rb,1,0.0,2022-06-28 03:50:00,Cr1 O3,CrO3,"[Element Cr, Element O]",2,Cr-O,AB3,[],CrO3,RbCrO3,0.2472235985775777,3.1680266574999996,144.5119037548043,723.818402681822,457.8175634212943,2293.0759948850814,0.0,0.2,0.4022430707500009,0.50757242991667,mp-1429856,mp-1076360,"Full Formula (Cr1 O3)
+Reduced Formula: CrO3
+abc   :   3.666722   3.666722   3.666722
+angles:  90.000000  90.000000  90.000000
+pbc   :       True       True       True
+Sites (4)
+  #  SP      a    b    c    magmom
+---  ----  ---  ---  ---  --------
+  0  Cr    0    0    0       0.002
+  1  O     0    0    0.5    -0
+  2  O     0    0.5  0      -0.001
+  3  O     0.5  0    0      -0.001","[InsertionVoltagePairDoc(formula_charge='CrO3', formula_discharge='RbCrO3', max_delta_volume=0.2472235985775777, average_voltage=3.1680266574999996, capacity_grav=144.5119037548043, capacity_vol=723.818402681822, energy_grav=457.8175634212943, energy_vol=2293.0759948850814, fracA_charge=0.0, fracA_discharge=0.2, stability_charge=0.4022430707500009, stability_discharge=0.50757242991667, id_charge=MPID(mp-1429856), id_discharge=MPID(mp-1076360))]","[MPID(mp-1429856), MPID(mp-1076360)]","all_formulas=['CrO3', 'RbCrO3'] all_chemsys=['Cr-O', 'Cr-O-Rb'] all_formula_anonymous=['ABC3', 'AB3'] all_elements=[Element Rb, Element Cr, Element O] all_composition_reduced={'Cr': [1.0], 'O': [3.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at CrO3 and RbCrO3
+Avg. volt. = 3.1680266574999996 V
+Grav. cap. = 144.5119037548043 mAh/g
+Vol. cap. = 723.818402681822","['battery_type', 'thermo_type']",3.3681419701697837,5.008711280005005,49.2985281077538,61.486287631130566,0.0,0.0,0.40288847837500086,0.5080168427500045,NM,FiM,12.32463202693845,12.297257526226113
+,mp-554622_Rb,,Rb0-3P(W3O10)4,Rb,1,0.0,2022-06-28 03:50:00,P1 W12 O40,P(W3O10)4,"[Element P, Element W, Element O]",3,O-P-W,AB12C40,[],P(W3O10)4,Rb3P(W3O10)4,0.041904422959023524,5.948169767500007,25.660175047350087,150.68277131689865,152.63107744540585,896.2867048302937,0.0,0.05357142857142857,0.12414361898585291,0.009855545915177899,mp-728875,mp-554622,"Full Formula (P2 W24 O80)
+Reduced Formula: P(W3O10)4
+abc   :  12.268020  12.268020  12.268020
+angles:  90.000000  90.000000  90.000000
+pbc   :       True       True       True
+Sites (106)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  P     0.5       0.5       0.5         -0
+  1  P     0         0         0           -0
+  2  W     0.709891  0.709891  0.492167    -0.015
+  3  W     0.507833  0.709891  0.290109    -0.015
+  4  W     0.709891  0.507833  0.290109    -0.015
+  5  W     0.709891  0.290109  0.507833    -0.015
+  6  W     0.507833  0.290109  0.709891    -0.015
+  7  W     0.709891  0.492167  0.709891    -0.015
+  8  W     0.290109  0.709891  0.507833    -0.015
+  9  W     0.492167  0.709891  0.709891    -0.015
+ 10  W     0.290109  0.507833  0.709891    -0.015
+ 11  W     0.290109  0.290109  0.492167    -0.015
+ 12  W     0.492167  0.290109  0.290109    -0.015
+ 13  W     0.290109  0.492167  0.290109    -0.015
+ 14  W     0.790109  0.790109  0.007833    -0.015
+ 15  W     0.992167  0.790109  0.209891    -0.015
+ 16  W     0.790109  0.992167  0.209891    -0.015
+ 17  W     0.790109  0.209891  0.992167    -0.015
+ 18  W     0.992167  0.209891  0.790109    -0.015
+ 19  W     0.790109  0.007833  0.790109    -0.015
+ 20  W     0.209891  0.790109  0.992167    -0.015
+ 21  W     0.007833  0.790109  0.790109    -0.015
+ 22  W     0.209891  0.992167  0.790109    -0.015
+ 23  W     0.209891  0.209891  0.007833    -0.015
+ 24  W     0.007833  0.209891  0.209891    -0.015
+ 25  W     0.209891  0.007833  0.209891    -0.015
+ 26  O     0.572898  0.572898  0.427102    -0
+ 27  O     0.572898  0.427102  0.572898    -0
+ 28  O     0.427102  0.572898  0.572898    -0
+ 29  O     0.427102  0.427102  0.427102    -0
+ 30  O     0.927102  0.927102  0.072898    -0
+ 31  O     0.927102  0.072898  0.927102    -0
+ 32  O     0.072898  0.927102  0.927102    -0
+ 33  O     0.072898  0.072898  0.072898    -0
+ 34  O     0.593994  0.593994  0.74624      0.033
+ 35  O     0.25376   0.593994  0.406006     0.034
+ 36  O     0.593994  0.25376   0.406006     0.048
+ 37  O     0.593994  0.406006  0.25376      0.033
+ 38  O     0.25376   0.406006  0.593994     0.034
+ 39  O     0.593994  0.74624   0.593994     0.048
+ 40  O     0.406006  0.593994  0.25376      0.033
+ 41  O     0.74624   0.593994  0.593994     0.034
+ 42  O     0.406006  0.25376   0.593994     0.048
+ 43  O     0.406006  0.406006  0.74624      0.033
+ 44  O     0.74624   0.406006  0.406006     0.034
+ 45  O     0.406006  0.74624   0.406006     0.048
+ 46  O     0.906006  0.906006  0.75376      0.033
+ 47  O     0.24624   0.906006  0.093994     0.034
+ 48  O     0.906006  0.24624   0.093994     0.048
+ 49  O     0.906006  0.093994  0.24624      0.033
+ 50  O     0.24624   0.093994  0.906006     0.034
+ 51  O     0.906006  0.75376   0.906006     0.048
+ 52  O     0.093994  0.906006  0.24624      0.033
+ 53  O     0.75376   0.906006  0.906006     0.034
+ 54  O     0.093994  0.24624   0.906006     0.048
+ 55  O     0.093994  0.093994  0.75376      0.033
+ 56  O     0.75376   0.093994  0.093994     0.034
+ 57  O     0.093994  0.75376   0.093994     0.048
+ 58  O     0.622994  0.622994  0.22178      0.038
+ 59  O     0.77822   0.622994  0.377006     0.04
+ 60  O     0.622994  0.77822   0.377006     0.058
+ 61  O     0.622994  0.377006  0.77822      0.038
+ 62  O     0.77822   0.377006  0.622994     0.04
+ 63  O     0.622994  0.22178   0.622994     0.058
+ 64  O     0.377006  0.622994  0.77822      0.038
+ 65  O     0.22178   0.622994  0.622994     0.04
+ 66  O     0.377006  0.77822   0.622994     0.058
+ 67  O     0.377006  0.377006  0.22178      0.038
+ 68  O     0.22178   0.377006  0.377006     0.04
+ 69  O     0.377006  0.22178   0.377006     0.058
+ 70  O     0.877006  0.877006  0.27822      0.038
+ 71  O     0.72178   0.877006  0.122994     0.04
+ 72  O     0.877006  0.72178   0.122994     0.058
+ 73  O     0.877006  0.122994  0.72178      0.038
+ 74  O     0.72178   0.122994  0.877006     0.04
+ 75  O     0.877006  0.27822   0.877006     0.058
+ 76  O     0.122994  0.877006  0.72178      0.038
+ 77  O     0.27822   0.877006  0.877006     0.04
+ 78  O     0.122994  0.72178   0.877006     0.058
+ 79  O     0.122994  0.122994  0.27822      0.038
+ 80  O     0.27822   0.122994  0.122994     0.04
+ 81  O     0.122994  0.27822   0.122994     0.058
+ 82  O     0.807391  0.807391  0.519255     0.001
+ 83  O     0.480745  0.807391  0.192609     0.001
+ 84  O     0.807391  0.480745  0.192609    -0
+ 85  O     0.807391  0.192609  0.480745     0.001
+ 86  O     0.480745  0.192609  0.807391     0.001
+ 87  O     0.807391  0.519255  0.807391    -0
+ 88  O     0.192609  0.807391  0.480745     0.001
+ 89  O     0.519255  0.807391  0.807391     0.001
+ 90  O     0.192609  0.480745  0.807391    -0
+ 91  O     0.192609  0.192609  0.519255     0.001
+ 92  O     0.519255  0.192609  0.192609     0.001
+ 93  O     0.192609  0.519255  0.192609    -0
+ 94  O     0.692609  0.692609  0.980745     0.001
+ 95  O     0.019255  0.692609  0.307391     0.001
+ 96  O     0.692609  0.019255  0.307391    -0
+ 97  O     0.692609  0.307391  0.019255     0.001
+ 98  O     0.019255  0.307391  0.692609     0.001
+ 99  O     0.692609  0.980745  0.692609    -0
+100  O     0.307391  0.692609  0.019255     0.001
+101  O     0.980745  0.692609  0.692609     0.001
+102  O     0.307391  0.019255  0.692609    -0
+103  O     0.307391  0.307391  0.980745     0.001
+104  O     0.980745  0.307391  0.307391     0.001
+105  O     0.307391  0.980745  0.307391    -0","[InsertionVoltagePairDoc(formula_charge='P(W3O10)4', formula_discharge='Rb3P(W3O10)4', max_delta_volume=0.041904422959023524, average_voltage=5.948169767500007, capacity_grav=25.660175047350087, capacity_vol=150.68277131689865, energy_grav=152.63107744540585, energy_vol=896.2867048302937, fracA_charge=0.0, fracA_discharge=0.05357142857142857, stability_charge=0.12414361898585291, stability_discharge=0.009855545915177899, id_charge=MPID(mp-728875), id_discharge=MPID(mp-554622))]","[MPID(mp-728875), MPID(mp-554622)]","all_formulas=['P(W3O10)4', 'Rb3P(W3O10)4'] all_chemsys=['O-P-W', 'O-P-Rb-W'] all_formula_anonymous=['AB12C40', 'AB3C12D40'] all_elements=[Element Rb, Element P, Element W, Element O] all_composition_reduced={'P': [1.0], 'W': [12.0], 'O': [40.0], 'Rb': [3.0]}","InsertionElectrode with endpoints at P(W3O10)4 and Rb3P(W3O10)4
+Avg. volt. = 5.948169767500007 V
+Grav. cap. = 25.660175047350087 mAh/g
+Vol. cap. = 150.68277131689865","['battery_type', 'thermo_type']",5.174876881762604,5.872242530956032,1846.3899430761617,1772.1298637281793,0.0,3.2474,0.12917493709906402,0.014300283682992188,NM,NM,17.41877304788832,15.8225880690016
+,mp-19342_Rb,,Rb0-1WO3,Rb,1,0.0,2022-06-28 03:50:00,W1 O3,WO3,"[Element W, Element O]",2,O-W,AB3,[],WO3,RbWO3,0.15986511365531353,1.4660550700000023,84.46572439652542,665.8544419895918,123.83140349274898,976.1792805608635,0.0,0.2,0.00027830062500022734,0.15323808016666618,mp-19342,mp-975138,"Full Formula (W8 O24)
+Reduced Formula: WO3
+abc   :   7.677599   7.733746   7.764183
+angles:  90.000000  90.000000  90.000000
+pbc   :       True       True       True
+Sites (32)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  W     0.751307  0.484532  0.234961        -0
+  1  W     0.251307  0.515468  0.265039        -0
+  2  W     0.748693  0.984532  0.265039        -0
+  3  W     0.248693  0.015468  0.234961        -0
+  4  W     0.248693  0.515468  0.765039        -0
+  5  W     0.748693  0.484532  0.734961        -0
+  6  W     0.251307  0.015468  0.734961        -0
+  7  W     0.751307  0.984532  0.765039        -0
+  8  O     0.758075  0.494473  0.4966           0
+  9  O     0.258075  0.505527  0.0034           0
+ 10  O     0.741925  0.994473  0.0034           0
+ 11  O     0.241925  0.005527  0.4966           0
+ 12  O     0.241925  0.505527  0.5034           0
+ 13  O     0.741925  0.494473  0.9966           0
+ 14  O     0.258075  0.005527  0.9966           0
+ 15  O     0.758075  0.994473  0.5034           0
+ 16  O     0.500065  0.984838  0.741976         0
+ 17  O     6.5e-05   0.015162  0.758024         0
+ 18  O     0.999935  0.484838  0.758024         0
+ 19  O     0.499935  0.515162  0.741976         0
+ 20  O     0.499935  0.015162  0.258024         0
+ 21  O     0.999935  0.984838  0.241976         0
+ 22  O     6.5e-05   0.515162  0.241976         0
+ 23  O     0.500065  0.484838  0.258024         0
+ 24  O     0.765374  0.24453   0.248781         0
+ 25  O     0.265374  0.25547   0.748781         0
+ 26  O     0.734626  0.24453   0.748781         0
+ 27  O     0.234626  0.75547   0.751219         0
+ 28  O     0.234626  0.25547   0.248781         0
+ 29  O     0.734626  0.74453   0.251219         0
+ 30  O     0.265374  0.75547   0.251219         0
+ 31  O     0.765374  0.74453   0.751219         0","[InsertionVoltagePairDoc(formula_charge='WO3', formula_discharge='RbWO3', max_delta_volume=0.15986511365531353, average_voltage=1.4660550700000023, capacity_grav=84.46572439652542, capacity_vol=665.8544419895918, energy_grav=123.83140349274898, energy_vol=976.1792805608635, fracA_charge=0.0, fracA_discharge=0.2, stability_charge=0.00027830062500022734, stability_discharge=0.15323808016666618, id_charge=MPID(mp-19342), id_discharge=MPID(mp-975138))]","[MPID(mp-19342), MPID(mp-975138), MPID(mp-19390), MPID(mp-715923)]","all_formulas=['RbWO3', 'WO3'] all_chemsys=['O-W', 'O-Rb-W'] all_formula_anonymous=['ABC3', 'AB3'] all_elements=[Element Rb, Element W, Element O] all_composition_reduced={'W': [1.0], 'O': [3.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at WO3 and RbWO3
+Avg. volt. = 1.4660550700000023 V
+Grav. cap. = 84.46572439652542 mAh/g
+Vol. cap. = 665.8544419895918","['battery_type', 'thermo_type']",6.6805618329414465,7.883131844505645,461.01079263355217,66.83879192428014,1.2772,0.0,0.006192068437499643,0.15323820550000544,NM,FM,14.406587269798505,13.367758384856028
+,mp-19395_Rb,,Rb0-0.25MnO2,Rb,3,0.9179987199996145,2022-06-28 03:50:00,Mn1 O2,MnO2,"[Element Mn, Element O]",2,Mn-O,AB2,[],MnO2,RbMn4O8,0.049232323429783564,3.354333017499988,61.86644047275511,294.7097686503647,207.52064395296003,988.5547075637013,0.0,0.07692307692307693,0.0,0.0,mp-19395,mp-752932,"Full Formula (Mn4 O8)
+Reduced Formula: MnO2
+abc   :   2.925105   7.165406   7.164105
+angles:  87.574823  78.243610  78.251275
+pbc   :       True       True       True
+Sites (12)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Mn    0.65172   0.183104  0.516697     3.201
+  1  Mn    0.16706   0.48647   0.183322     3.2
+  2  Mn    0.834099  0.516327  0.819773     3.202
+  3  Mn    0.34942   0.819682  0.486093     3.201
+  4  O     0.836051  0.709259  0.623567    -0.054
+  5  O     0.457531  0.378522  0.710109    -0.055
+  6  O     0.543632  0.623959  0.293333    -0.054
+  7  O     0.164293  0.29433   0.380077    -0.052
+  8  O     0.156647  0.049469  0.64082     -0.177
+  9  O     0.795471  0.361934  0.050233    -0.177
+ 10  O     0.844601  0.953264  0.361624    -0.177
+ 11  O     0.205655  0.640841  0.953012    -0.177","[InsertionVoltagePairDoc(formula_charge='MnO2', formula_discharge='RbMn6O12', max_delta_volume=0.04059773855955551, average_voltage=3.8853758325000163, capacity_grav=44.14754160352814, capacity_vol=198.10345781102808, energy_grav=171.52979121063726, energy_vol=769.7063873136551, fracA_charge=0.0, fracA_discharge=0.05263157894736842, stability_charge=0.0, stability_discharge=0.0, id_charge=MPID(mp-19395), id_discharge=MPID(mp-1173584)), InsertionVoltagePairDoc(formula_charge='RbMn6O12', formula_discharge='Rb3Mn16O32', max_delta_volume=0.0012259177209388294, average_voltage=2.9807464274996436, capacity_grav=5.423009252980543, capacity_vol=24.732612078945838, energy_grav=16.164615457119265, energy_vol=73.72164509705235, fracA_charge=0.05263157894736842, fracA_discharge=0.058823529411764705, stability_charge=0.0, stability_discharge=0.0, id_charge=MPID(mp-1173584), id_discharge=MPID(mp-758431)), InsertionVoltagePairDoc(formula_charge='Rb3Mn16O32', formula_discharge='RbMn4O8', max_delta_volume=0.007063139801974705, average_voltage=2.062747707500029, capacity_grav=15.466610118188777, capacity_vol=73.67744216259118, energy_grav=31.903714564090656, energy_vol=151.97797491535093, fracA_charge=0.058823529411764705, fracA_discharge=0.07692307692307693, stability_charge=0.0, stability_discharge=0.0, id_charge=MPID(mp-758431), id_discharge=MPID(mp-752932))]","[MPID(mp-19395), MPID(mp-1173584), MPID(mp-758431), MPID(mp-752932)]","all_formulas=['Rb3Mn16O32', 'MnO2', 'RbMn6O12', 'RbMn4O8'] all_chemsys=['Mn-O', 'Mn-O-Rb'] all_formula_anonymous=['A3B16C32', 'AB6C12', 'AB4C8', 'AB2'] all_elements=[Element Rb, Element Mn, Element O] all_composition_reduced={'Mn': [16.0, 1.0, 4.0, 6.0], 'O': [32.0, 8.0, 2.0, 12.0], 'Rb': [1.0, 3.0]}","InsertionElectrode with endpoints at MnO2 and RbMn4O8
+Avg. volt. = 3.354333017499988 V
+Grav. cap. = 61.86644047275511 mAh/g
+Vol. cap. = 294.7097686503647","['battery_type', 'thermo_type']",4.28480128094109,5.070953941113968,134.76660221473983,141.86102634490152,1.1467,0.0,0.016697983888889212,0.0,FM,FM,11.230550184561652,10.912386641915502
+,mp-504398_Rb,,Rb0-1Mn4(PO4)3,Rb,1,0.0,2022-06-28 03:50:00,Mn4 P3 O12,Mn4(PO4)3,"[Element Mn, Element P, Element O]",3,Mn-O-P,A3B4C12,[],Mn4(PO4)3,RbMn4(PO4)3,0.0633355073540165,4.155545439999975,45.41591934698426,159.76348612877976,188.7279165457671,663.90442626095,0.0,0.05,0.035037654999984014,0.00014749425000815108,mp-504398,mp-560306,"Full Formula (Mn16 P12 O48)
+Reduced Formula: Mn4(PO4)3
+abc   :   6.398019   9.982645  16.406989
+angles:  90.000000  90.000000  90.000000
+pbc   :       True       True       True
+Sites (76)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  Mn    0         0.548892  0.094119     4.103
+  1  Mn    0         0.987542  0.139174     4.63
+  2  Mn    0         0.012458  0.860826     4.63
+  3  Mn    0         0.451108  0.905881     4.103
+  4  Mn    0.752756  0.759765  0.298885     4.633
+  5  Mn    0.752756  0.240235  0.701115     4.633
+  6  Mn    0.747244  0.259765  0.201115     4.633
+  7  Mn    0.747244  0.740235  0.798885     4.633
+  8  Mn    0.5       0.487542  0.360826     4.63
+  9  Mn    0.5       0.048892  0.405881     4.103
+ 10  Mn    0.5       0.951108  0.594119     4.103
+ 11  Mn    0.5       0.512458  0.639174     4.63
+ 12  Mn    0.252756  0.259765  0.201115     4.633
+ 13  Mn    0.252756  0.740235  0.798885     4.633
+ 14  Mn    0.247244  0.759765  0.298885     4.633
+ 15  Mn    0.247244  0.240235  0.701115     4.633
+ 16  P     0         0.215154  0.032743     0.021
+ 17  P     0         0.467814  0.279389     0.023
+ 18  P     0         0.052404  0.3389       0.021
+ 19  P     0         0.947596  0.6611       0.021
+ 20  P     0         0.532186  0.720611     0.023
+ 21  P     0         0.784846  0.967257     0.021
+ 22  P     0.5       0.552404  0.1611       0.021
+ 23  P     0.5       0.967814  0.220611     0.023
+ 24  P     0.5       0.715154  0.467257     0.021
+ 25  P     0.5       0.284846  0.532743     0.021
+ 26  P     0.5       0.032186  0.779389     0.023
+ 27  P     0.5       0.447596  0.8389       0.021
+ 28  O     0         0.37289   0.017591    -0.012
+ 29  O     0         0.846561  0.051371     0.015
+ 30  O     0         0.416014  0.18497     -0.026
+ 31  O     0         0.125208  0.251702     0.028
+ 32  O     0         0.622837  0.274486     0.034
+ 33  O     0         0.898018  0.322989     0.036
+ 34  O     0         0.101982  0.677011     0.036
+ 35  O     0         0.377163  0.725514     0.034
+ 36  O     0         0.874792  0.748298     0.028
+ 37  O     0         0.583986  0.81503     -0.026
+ 38  O     0         0.153439  0.948629     0.015
+ 39  O     0         0.62711   0.982409    -0.012
+ 40  O     0.808665  0.174354  0.085983     0.037
+ 41  O     0.808665  0.825646  0.914017     0.037
+ 42  O     0.799572  0.094055  0.384114    -0.014
+ 43  O     0.799572  0.905945  0.615886    -0.014
+ 44  O     0.796929  0.408639  0.312902     0.022
+ 45  O     0.796929  0.591361  0.687098     0.022
+ 46  O     0.703071  0.908639  0.187098     0.022
+ 47  O     0.703071  0.091361  0.812902     0.022
+ 48  O     0.700428  0.594055  0.115886    -0.014
+ 49  O     0.700428  0.405945  0.884114    -0.014
+ 50  O     0.691335  0.674354  0.414017     0.037
+ 51  O     0.691335  0.325646  0.585983     0.037
+ 52  O     0.5       0.398018  0.177011     0.036
+ 53  O     0.5       0.122837  0.225514     0.034
+ 54  O     0.5       0.625208  0.248298     0.028
+ 55  O     0.5       0.916014  0.31503     -0.026
+ 56  O     0.5       0.346561  0.448629     0.015
+ 57  O     0.5       0.87289   0.482409    -0.012
+ 58  O     0.5       0.12711   0.517591    -0.012
+ 59  O     0.5       0.653439  0.551371     0.015
+ 60  O     0.5       0.083986  0.68497     -0.026
+ 61  O     0.5       0.374792  0.751702     0.028
+ 62  O     0.5       0.877163  0.774486     0.034
+ 63  O     0.5       0.601982  0.822989     0.036
+ 64  O     0.308665  0.674354  0.414017     0.037
+ 65  O     0.308665  0.325646  0.585983     0.037
+ 66  O     0.299572  0.594055  0.115886    -0.014
+ 67  O     0.299572  0.405945  0.884114    -0.014
+ 68  O     0.296929  0.908639  0.187098     0.022
+ 69  O     0.296929  0.091361  0.812902     0.022
+ 70  O     0.203071  0.408639  0.312902     0.022
+ 71  O     0.203071  0.591361  0.687098     0.022
+ 72  O     0.200428  0.094055  0.384114    -0.014
+ 73  O     0.200428  0.905945  0.615886    -0.014
+ 74  O     0.191335  0.174354  0.085983     0.037
+ 75  O     0.191335  0.825646  0.914017     0.037","[InsertionVoltagePairDoc(formula_charge='Mn4(PO4)3', formula_discharge='RbMn4(PO4)3', max_delta_volume=0.0633355073540165, average_voltage=4.155545439999975, capacity_grav=45.41591934698426, capacity_vol=159.76348612877976, energy_grav=188.7279165457671, energy_vol=663.90442626095, fracA_charge=0.0, fracA_discharge=0.05, stability_charge=0.035037654999984014, stability_discharge=0.00014749425000815108, id_charge=MPID(mp-504398), id_discharge=MPID(mp-560306))]","[MPID(mp-504398), MPID(mp-560306)]","all_formulas=['RbMn4(PO4)3', 'Mn4(PO4)3'] all_chemsys=['Mn-O-P-Rb', 'Mn-O-P'] all_formula_anonymous=['A3B4C12', 'AB3C4D12'] all_elements=[Element Rb, Element Mn, Element P, Element O] all_composition_reduced={'Mn': [4.0], 'P': [3.0], 'O': [12.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at Mn4(PO4)3 and RbMn4(PO4)3
+Avg. volt. = 4.155545439999975 V
+Grav. cap. = 45.41591934698426 mAh/g
+Vol. cap. = 159.76348612877976","['battery_type', 'thermo_type']",3.198845943288697,3.517786018002907,1047.9004805421675,1114.2697891338235,0.0,3.3575999999999997,0.03800140394736573,0.002963055750011989,FM,FM,13.7881642176601,13.928372364172793
+,mp-690346_Rb,,Rb0-0.33WO3,Rb,1,0.0,2022-06-28 03:50:00,W1 O3,WO3,"[Element W, Element O]",2,O-W,AB3,[],WO3,Rb(WO3)3,0.005669537129427971,2.8824141575000004,34.31765062229813,234.66071036200995,98.91768200585084,676.3893537564645,0.0,0.07692307692307693,0.004226482083334204,0.007002781923075574,mp-690346,mp-1193715,"Full Formula (W6 O18)
+Reduced Formula: WO3
+abc   :   7.507341   7.507341   7.727504
+angles:  90.000000  90.000000 119.999993
+pbc   :       True       True       True
+Sites (24)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  W     0         0.516844  0.761032        -0
+  1  W     0.483156  0.483156  0.761032        -0
+  2  W     0.483156  0         0.261032        -0
+  3  W     0.516844  0.516844  0.261032        -0
+  4  W     0.516844  0         0.761032        -0
+  5  W     0         0.483156  0.261032        -0
+  6  O     0         0.501383  0.00288          0
+  7  O     0         0.498617  0.50288          0
+  8  O     0.501383  0.501383  0.50288          0
+  9  O     0.498617  0.498617  0.00288          0
+ 10  O     0.501383  0         0.00288          0
+ 11  O     0.498617  0         0.50288          0
+ 12  O     0.216137  0.425981  0.251026         0
+ 13  O     0.209845  0.425981  0.751026         0
+ 14  O     0.216137  0.790155  0.751026         0
+ 15  O     0.209845  0.783863  0.251026         0
+ 16  O     0.574019  0.790155  0.251026         0
+ 17  O     0.574019  0.783863  0.751026         0
+ 18  O     0.425981  0.216137  0.251026         0
+ 19  O     0.425981  0.209845  0.751026         0
+ 20  O     0.790155  0.216137  0.751026         0
+ 21  O     0.783863  0.209845  0.251026         0
+ 22  O     0.790155  0.574019  0.251026         0
+ 23  O     0.783863  0.574019  0.751026         0","[InsertionVoltagePairDoc(formula_charge='WO3', formula_discharge='Rb(WO3)3', max_delta_volume=0.005669537129427971, average_voltage=2.8824141575000004, capacity_grav=34.31765062229813, capacity_vol=234.66071036200995, energy_grav=98.91768200585084, energy_vol=676.3893537564645, fracA_charge=0.0, fracA_discharge=0.07692307692307693, stability_charge=0.004226482083334204, stability_discharge=0.007002781923075574, id_charge=MPID(mp-690346), id_discharge=MPID(mp-1193715))]","[MPID(mp-690346), MPID(mp-1193715), MPID(mp-1191364)]","all_formulas=['Rb(WO3)3', 'WO3'] all_chemsys=['O-W', 'O-Rb-W'] all_formula_anonymous=['AB3C9', 'AB3'] all_elements=[Element Rb, Element W, Element O] all_composition_reduced={'W': [1.0, 3.0], 'O': [9.0, 3.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at WO3 and Rb(WO3)3
+Avg. volt. = 2.8824141575000004 V
+Grav. cap. = 34.31765062229813 mAh/g
+Vol. cap. = 234.66071036200995","['battery_type', 'thermo_type']",6.337957214990244,6.837901372200688,364.4483941794644,379.3128081078634,1.488,0.0,0.01014024989583362,0.007002781923075574,NM,FM,15.185349757477683,14.588954157994747
+,mp-18539_Rb,,Rb0-0.33WO3,Rb,2,0.8679103800000405,2022-06-28 03:50:00,W1 O3,WO3,"[Element W, Element O]",2,O-W,AB3,[],WO3,Rb(WO3)3,0.014457755484532653,2.9690160274999817,34.31765062229813,231.9991995272736,101.88965472374788,688.8093417636414,0.0,0.07692307692307693,0.0038569575000000356,0.0,mp-32662,mp-1179800,"Full Formula (W6 O18)
+Reduced Formula: WO3
+abc   :   7.509436   7.509436   7.744122
+angles:  90.000000  90.000000 119.999997
+pbc   :       True       True       True
+Sites (24)
+  #  SP           a         b         c    magmom
+---  ----  --------  --------  --------  --------
+  0  W     0.514715  0         0.264179         0
+  1  W     0.485285  0.485285  0.264179         0
+  2  W     0         0.514715  0.264179         0
+  3  W     0.485285  0         0.764179        -0
+  4  W     0.514715  0.514715  0.764179        -0
+  5  W     0         0.485285  0.764179         0
+  6  O     0.573843  0.784316  0.252614        -0
+  7  O     0.210473  0.426157  0.252614        -0
+  8  O     0.215684  0.789527  0.252614        -0
+  9  O     0.789527  0.215684  0.252614        -0
+ 10  O     0.784316  0.573843  0.252614        -0
+ 11  O     0.426157  0.210473  0.252614        -0
+ 12  O     0.426157  0.215684  0.752614        -0
+ 13  O     0.789527  0.573843  0.752614        -0
+ 14  O     0.784316  0.210473  0.752614        -0
+ 15  O     0.210473  0.784316  0.752614        -0
+ 16  O     0.215684  0.426157  0.752614        -0
+ 17  O     0.573843  0.789527  0.752614        -0
+ 18  O     0.5013    0         0.504594         0
+ 19  O     0.4987    0.4987    0.504594         0
+ 20  O     0         0.5013    0.504594         0
+ 21  O     0.4987    0         0.004594         0
+ 22  O     0.5013    0.5013    0.004594         0
+ 23  O     0         0.4987    0.004594         0","[InsertionVoltagePairDoc(formula_charge='WO3', formula_discharge='Rb(WO3)6', max_delta_volume=0.0004998537761111699, average_voltage=3.402971217500002, capacity_grav=18.152072876114136, capacity_vol=117.61790186093964, energy_grav=61.77098153537889, energy_vol=400.2503346955175, fracA_charge=0.0, fracA_discharge=0.04, stability_charge=0.0038569575000000356, stability_discharge=0.0, id_charge=MPID(mp-32662), id_discharge=MPID(mp-698610)), InsertionVoltagePairDoc(formula_charge='Rb(WO3)6', formula_discharge='Rb(WO3)3', max_delta_volume=0.013950928284238273, average_voltage=2.5350608374999615, capacity_grav=17.158825311149066, capacity_vol=115.9995997636368, energy_grav=43.49866606379709, energy_vol=294.0660425264654, fracA_charge=0.04, fracA_discharge=0.07692307692307693, stability_charge=0.0, stability_discharge=0.0, id_charge=MPID(mp-698610), id_discharge=MPID(mp-1179800))]","[MPID(mp-32662), MPID(mp-698610), MPID(mp-1179800), MPID(mp-32777), MPID(mp-545665), MPID(mp-38637), MPID(mp-531981), MPID(mp-1219848), MPID(mp-706249), MPID(mp-705830), MPID(mp-757900), MPID(mp-761961), MPID(mp-18539), MPID(mp-19617), MPID(mp-558328), MPID(mp-565431), MPID(mp-566332)]","all_formulas=['Rb(WO3)6', 'WO3', 'Rb(WO3)3'] all_chemsys=['O-W', 'O-Rb-W'] all_formula_anonymous=['AB3C9', 'AB6C18', 'AB3'] all_elements=[Element Rb, Element W, Element O] all_composition_reduced={'W': [1.0, 3.0, 6.0], 'O': [9.0, 18.0, 3.0], 'Rb': [1.0]}","InsertionElectrode with endpoints at WO3 and Rb(WO3)3
+Avg. volt. = 2.9690160274999817 V
+Grav. cap. = 34.31765062229813 mAh/g
+Vol. cap. = 231.9991995272736","['battery_type', 'thermo_type']",6.107562340722835,6.760346213687383,378.1964391882033,383.6643108311073,1.4934,0.6477999999999999,0.00977072531249945,0.0,NM,FM,15.758184966175138,14.75631964735028
