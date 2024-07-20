@@ -1,2 +1,2 @@
 # Neural-Inc
-This repository contains files relating our final year project. The project is aimed at predicting the voltage of battery electrode materials.
+This repository contains the data and files used in the prediction of average voltage of electrode materials for batteries.
