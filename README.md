@@ -23,5 +23,13 @@ The `additional_data` cell in the data extraction notebook performs extensive AP
 ### Materials Project API Usage
 Access to the Materials Project requires an API key and is subject to usage limits and their terms of use. Please ensure you adhere to these guidelines when retrieving data programmatically.
 
+### Model Generalization
+The trained model is based solely on the dataset extracted from the Materials Project and may not generalize well to materials with features outside the training data's distribution. Additional validation is advised when applying the model to new or experimental materials.
+
+## 📈 Future Work
+- Explore alternative ML models (e.g., Random Forest, Gradient Boosting)
+- Extend the dataset with new materials or updated data from the Materials Project
+- Deploy the model as a web application for wider accessibility by researchers
+
 
 
