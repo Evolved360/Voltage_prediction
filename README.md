@@ -8,6 +8,8 @@ The dataset was sourced from the **[Materials Project](https://materialsproject.
 - **Python** 
 - **Pandas** – Data manipulation and preprocessing
 - **NumPy** – Numerical computations
+- **pymatgen** – Materials analysis and data extraction
+- **CBFV (Composition-Based Feature Vectorization)** – Feature generation from material compositions
 - **Scikit-learn** – Data preprocessing and evaluation metrics
 - **TensorFlow / Keras** – Deep Neural Network modeling
 - **Matplotlib & Seaborn** – Data visualization
