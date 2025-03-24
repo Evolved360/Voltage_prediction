@@ -32,7 +32,7 @@ The trained model is based solely on the dataset extracted from the Materials Pr
 - Deploy the model as a web application for wider accessibility by researchers
 
 ## Author
-Bernard Nii Adote Allotey – https://github.com/Evolved360)
+Bernard Nii Adote Allotey – https://github.com/Evolved360
 
 ## Acknowledgments
 Special thanks to my collaborators for their valuable contributions:
