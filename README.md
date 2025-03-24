@@ -31,5 +31,18 @@ The trained model is based solely on the dataset extracted from the Materials Pr
 - Extend the dataset with new materials or updated data from the Materials Project
 - Deploy the model as a web application for wider accessibility by researchers
 
+## 👨‍💻 Author
+Bernard Nii Adote Allotey – [Your GitHub](https://github.com/yourusername)
+
+## 🙏 Acknowledgments
+Special thanks to my collaborators for their valuable contributions:
+- Nana Yaw Boateng
+- Wilhemina Tackie
+- Nathaniel Sambi
+
+ If you have any questions or contributions, feel free to reach out to me on:
+ Email - allotey361@gmail.com
+  
+
 
 
