@@ -15,4 +15,13 @@ The dataset was sourced from the **[Materials Project](https://materialsproject.
 - **Matplotlib & Seaborn** – Data visualization
 - **Jupyter Notebook** – Exploratory Data Analysis and model development
 
+## ⚠️ Disclaimer
+
+### Data Extraction Runtime
+The `additional_data` cell in the data extraction notebook performs extensive API calls to the Materials Project database, which may take several hours to complete due to API rate limits and the large dataset size. For efficiency and reproducibility, unless there is a significant update to the Materials Project data, it is recommended to use the pre-extracted battery dataset provided in the repository (`data/battery_data.csv`).
+
+### Materials Project API Usage
+Access to the Materials Project requires an API key and is subject to usage limits and their terms of use. Please ensure you adhere to these guidelines when retrieving data programmatically.
+
+
 
